@@ -12,11 +12,14 @@
 @interface DetailViewController : UIViewController<AVAudioRecorderDelegate, AVAudioPlayerDelegate>{
     AVAudioRecorder *recorder;
     AVAudioPlayer *player;
+    NSMutableArray *audioFileArray;
 }
 
 @property (strong, nonatomic) id detailItem;
+@property (assign) int which;
 
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @property (nonatomic, nonatomic) IBOutlet UIImageView *talkImageView;
+- (IBAction)playButtonPushed:(id)sender;
 
 @end

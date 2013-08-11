@@ -120,17 +120,16 @@
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
      */
+
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    NSLog(@"押されたよ");
-    NSLog([segue identifier]);
-    NSLog(sender);
-    NSLog(@"fffff");
+    NSLog([[NSString stringWithFormat:@"%d", [self.tableView indexPathForSelectedRow].row] stringByAppendingFormat:@"番目が押されたよ"]);
     if ([[segue identifier] isEqualToString:@"showPlayView"]) {
-        
         [[segue destinationViewController] setDetailItem:self.detailItem];
+        int foo = [self.tableView indexPathForSelectedRow].row;
+        [[segue destinationViewController] setWhich:foo];
     }
 }
 

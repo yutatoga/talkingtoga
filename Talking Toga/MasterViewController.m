@@ -40,7 +40,7 @@
     [togaDict setObject:@"http://yutatoga.com/jp/img/hero.jpg" forKey:@"photo"];
     NSMutableArray *voiceMutableArray = [NSArray arrayWithObjects:
                                          @"はーい",
-                                         @"しゃくにさわりますね",
+                                         @"こら",
                                          @"やばくないすか",
                                          @"なんすか", nil];
     [togaDict setObject:voiceMutableArray forKey:@"voiceList"];

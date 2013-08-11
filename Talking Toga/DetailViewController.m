@@ -43,12 +43,24 @@
     [self configureView];
     
 // FIXME: change 2 to which row was pushed
-    self.title = [[self.detailItem objectForKey:@"voiceList"] objectAtIndex:2];
+    self.title = [[self.detailItem objectForKey:@"voiceList"] objectAtIndex:self.which];
     
     NSData *dt = [NSData dataWithContentsOfURL:
                   [NSURL URLWithString:[self.detailItem objectForKey:@"photo"]]];
     UIImage *image = [[UIImage alloc] initWithData:dt];
     [self.talkImageView initWithImage:image];
+
+    
+    //FIXME: to more flexible
+    //audio
+    audioFileArray = [NSMutableArray array];
+    [audioFileArray addObject:@"hai"];
+    [audioFileArray addObject:@"kora"];
+    [audioFileArray addObject:@"yabakunaisuka"];
+    [audioFileArray addObject:@"nansuka"];
+    
+    
+
 
 }
 
@@ -60,4 +72,13 @@
 
 
 
+- (IBAction)playButtonPushed:(id)sender {
+    //player
+    //avplayer
+    NSString *path2 = [[NSBundle mainBundle] pathForResource:[audioFileArray objectAtIndex:self.which] ofType:@"wav"];
+    NSURL *url = [NSURL fileURLWithPath:path2];
+    AVAudioPlayer *audio = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
+    player = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
+    [player play];
+}
 @end
