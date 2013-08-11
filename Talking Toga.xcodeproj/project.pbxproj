@@ -20,6 +20,11 @@
 		8D2118CD17B6AA6000FC98AB /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2118CC17B6AA6000FC98AB /* MasterViewController.m */; };
 		8D2118D017B6AA6000FC98AB /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2118CF17B6AA6000FC98AB /* DetailViewController.m */; };
 		8D2118DB17B6C3A500FC98AB /* VoiceListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2118DA17B6C3A500FC98AB /* VoiceListTableViewController.m */; };
+		8D2118DD17B756E400FC98AB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2118DC17B756E400FC98AB /* AVFoundation.framework */; };
+		8D2118E017B75E5000FC98AB /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2118DF17B75E5000FC98AB /* RecordViewController.m */; };
+		8D2118E217B75EC700FC98AB /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2118E117B75EC700FC98AB /* MediaPlayer.framework */; };
+		8D2118E617B7605700FC98AB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2118E517B7605700FC98AB /* MobileCoreServices.framework */; };
+		8D2118E817B7605C00FC98AB /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2118E717B7605C00FC98AB /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +48,12 @@
 		8D2118CF17B6AA6000FC98AB /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		8D2118D917B6C3A500FC98AB /* VoiceListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceListTableViewController.h; sourceTree = "<group>"; };
 		8D2118DA17B6C3A500FC98AB /* VoiceListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceListTableViewController.m; sourceTree = "<group>"; };
+		8D2118DC17B756E400FC98AB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8D2118DE17B75E5000FC98AB /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
+		8D2118DF17B75E5000FC98AB /* RecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
+		8D2118E117B75EC700FC98AB /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		8D2118E517B7605700FC98AB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8D2118E717B7605C00FC98AB /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +61,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D2118E817B7605C00FC98AB /* AssetsLibrary.framework in Frameworks */,
+				8D2118E617B7605700FC98AB /* MobileCoreServices.framework in Frameworks */,
+				8D2118E217B75EC700FC98AB /* MediaPlayer.framework in Frameworks */,
+				8D2118DD17B756E400FC98AB /* AVFoundation.framework in Frameworks */,
 				8D2118B117B6AA6000FC98AB /* UIKit.framework in Frameworks */,
 				8D2118B317B6AA6000FC98AB /* Foundation.framework in Frameworks */,
 				8D2118B517B6AA6000FC98AB /* CoreGraphics.framework in Frameworks */,
@@ -62,6 +77,8 @@
 		8D2118A417B6AA6000FC98AB = {
 			isa = PBXGroup;
 			children = (
+				8D2118E717B7605C00FC98AB /* AssetsLibrary.framework */,
+				8D2118E517B7605700FC98AB /* MobileCoreServices.framework */,
 				8D2118B617B6AA6000FC98AB /* Talking Toga */,
 				8D2118AF17B6AA6000FC98AB /* Frameworks */,
 				8D2118AE17B6AA6000FC98AB /* Products */,
@@ -79,6 +96,8 @@
 		8D2118AF17B6AA6000FC98AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8D2118E117B75EC700FC98AB /* MediaPlayer.framework */,
+				8D2118DC17B756E400FC98AB /* AVFoundation.framework */,
 				8D2118B017B6AA6000FC98AB /* UIKit.framework */,
 				8D2118B217B6AA6000FC98AB /* Foundation.framework */,
 				8D2118B417B6AA6000FC98AB /* CoreGraphics.framework */,
@@ -96,6 +115,8 @@
 				8D2118CC17B6AA6000FC98AB /* MasterViewController.m */,
 				8D2118D917B6C3A500FC98AB /* VoiceListTableViewController.h */,
 				8D2118DA17B6C3A500FC98AB /* VoiceListTableViewController.m */,
+				8D2118DE17B75E5000FC98AB /* RecordViewController.h */,
+				8D2118DF17B75E5000FC98AB /* RecordViewController.m */,
 				8D2118CE17B6AA6000FC98AB /* DetailViewController.h */,
 				8D2118CF17B6AA6000FC98AB /* DetailViewController.m */,
 				8D2118B717B6AA6000FC98AB /* Supporting Files */,
@@ -188,6 +209,7 @@
 				8D2118CD17B6AA6000FC98AB /* MasterViewController.m in Sources */,
 				8D2118D017B6AA6000FC98AB /* DetailViewController.m in Sources */,
 				8D2118DB17B6C3A500FC98AB /* VoiceListTableViewController.m in Sources */,
+				8D2118E017B75E5000FC98AB /* RecordViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +332,7 @@
 				8D2118D517B6AA6000FC98AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

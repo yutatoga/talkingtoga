@@ -34,7 +34,7 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    
+    self.title = [self.detailItem objectForKey:@"name"];
 }
 
 - (void)didReceiveMemoryWarning
@@ -126,8 +126,10 @@
 {
     NSLog(@"押されたよ");
     NSLog([segue identifier]);
+    NSLog(sender);
     NSLog(@"fffff");
     if ([[segue identifier] isEqualToString:@"showPlayView"]) {
+        
         [[segue destinationViewController] setDetailItem:self.detailItem];
     }
 }

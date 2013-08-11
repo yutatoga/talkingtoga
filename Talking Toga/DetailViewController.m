@@ -41,7 +41,9 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [self configureView];
-    self.title = [self.detailItem objectForKey:@"name"];
+    
+// FIXME: change 2 to which row was pushed
+    self.title = [[self.detailItem objectForKey:@"voiceList"] objectAtIndex:2];
     
     NSData *dt = [NSData dataWithContentsOfURL:
                   [NSURL URLWithString:[self.detailItem objectForKey:@"photo"]]];
@@ -55,5 +57,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 @end

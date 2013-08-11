@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface DetailViewController : UIViewController
+@interface DetailViewController : UIViewController<AVAudioRecorderDelegate, AVAudioPlayerDelegate>{
+    AVAudioRecorder *recorder;
+    AVAudioPlayer *player;
+}
 
 @property (strong, nonatomic) id detailItem;
 
