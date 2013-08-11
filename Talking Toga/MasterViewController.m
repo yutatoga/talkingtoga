@@ -8,7 +8,7 @@
 
 #import "MasterViewController.h"
 
-#import "DetailViewController.h"
+#import "VoiceListTableViewController.h"
 
 @interface MasterViewController () {
     NSMutableArray *_objects;
@@ -30,6 +30,24 @@
 
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
+    talkDict = [NSMutableDictionary dictionary];
+    
+    NSMutableDictionary *togaDict = [NSMutableDictionary dictionary];
+    [togaDict setObject:@"James Toga" forKey:@"name"];
+    [togaDict setObject:@"Sobash" forKey:@"nickName"];
+    [togaDict setObject:@"Future Lab" forKey:@"company"];
+    [togaDict setObject:@"Tokyo" forKey:@"address"];
+    [togaDict setObject:@"http://yutatoga.com/jp/img/hero.jpg" forKey:@"photo"];
+    NSMutableArray *voiceMutableArray = [NSArray arrayWithObjects:
+                                         @"はーい",
+                                         @"しゃくにさわりますね",
+                                         @"やばくないすか",
+                                         @"なんすか", nil];
+    [togaDict setObject:voiceMutableArray forKey:@"voiceList"];
+    
+    _objects = [[NSMutableArray alloc] init];
+    
+    [_objects insertObject:togaDict atIndex:0];
 }
 
 - (void)didReceiveMemoryWarning
@@ -63,9 +81,11 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-
-    NSDate *object = _objects[indexPath.row];
-    cell.textLabel.text = [object description];
+//
+//    NSDate *object = _objects[indexPath.row];
+//    NSLog([object description]);
+//    cell.textLabel.text = [object description];
+    cell.textLabel.text = [[_objects objectAtIndex:indexPath.row] objectForKey:@"name"];
     return cell;
 }
 
@@ -103,6 +123,12 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
+    NSLog([segue identifier]);
+    if ([[segue identifier] isEqualToString:@"showVoiceListTableView"]) {
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        NSDictionary *selectedDict = _objects[indexPath.row];
+        [[segue destinationViewController] setDetailItem:selectedDict];
+    }
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         NSDate *object = _objects[indexPath.row];

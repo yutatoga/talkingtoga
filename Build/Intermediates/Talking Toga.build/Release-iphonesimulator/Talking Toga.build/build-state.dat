@@ -1,0 +1,354 @@
+TTalking Toga
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator/Talking Toga.app/Info.plist" "Talking Toga/Talking Toga-Info.plist"
+cProcessPCH "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-ghkpenilidpasfgtexruuqwvudzf/Talking Toga-Prefix.pch.pth" "Talking Toga/Talking Toga-Prefix.pch" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/MasterViewController.o" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/MasterViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/AppDelegate.o" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/AppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/main.o" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/DetailViewController.o" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/DetailViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/VoiceListTableViewController.o" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/VoiceListTableViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000051BF42D50000000000000110
+t1371488981
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005106E7D80000000000228FE0
+t1359407064
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005106E7DA00000000003DDFA0
+t1359407066
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000005106E7DA00000000000015F7
+t1359407066
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000005106E7E00000000000000E8D
+t1359407072
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005106E7E10000000000AB6230
+t1359407073
+s11231792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/include/Availability.h
+c000000005106E7F80000000000001B73
+t1359407096
+s7027
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-ghkpenilidpasfgtexruuqwvudzf/Talking Toga-Prefix.pch.pth
+t1376162796
+s4677044
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/AppDelegate.o
+t1376162797
+s85500
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/DetailViewController.o
+t1376162797
+s75704
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/MasterViewController.o
+t2
+s0
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/Talking Toga.LinkFileList
+c00000000520693EC0000000000000387
+t1376162796
+s903
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/VoiceListTableViewController.o
+t1376162797
+s75032
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/main.o
+t1376162797
+s3288
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator/Talking Toga.app
+t1376162796
+s136
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator/Talking Toga.app.dSYM
+t2
+s0
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator/Talking Toga.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator/Talking Toga.app/Default.png
+t2
+s0
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator/Talking Toga.app/Default@2x.png
+t2
+s0
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator/Talking Toga.app/Info.plist
+t1376162796
+s968
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator/Talking Toga.app/PkgInfo
+t1376162796
+s8
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator/Talking Toga.app/Talking Toga
+t2
+s0
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator/Talking Toga.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator/Talking Toga.app/en.lproj/MainStoryboard.storyboardc
+t2
+s0
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/AppDelegate.h
+c00000000520672E00000000000000117
+t1376154336
+s279
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/AppDelegate.m
+c00000000520672E000000000000007D9
+t1376154336
+s2009
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/Default-568h@2x.png
+c0000000050262AB100000000000048A2
+t1344678577
+s18594
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/Default.png
+c0000000050262AB1000000000000198C
+t1344678577
+s6540
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/Default@2x.png
+c0000000050262AB10000000000003EEB
+t1344678577
+s16107
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/DetailViewController.h
+c000000005206845B00000000000001A0
+t1376158811
+s416
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/DetailViewController.m
+c00000000520686200000000000000510
+t1376159264
+s1296
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/MasterViewController.m
+c00000000520693EB00000000000010E9
+t1376162795
+s4329
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/Talking Toga-Prefix.pch
+c00000000520672E00000000000000147
+t1376154336
+s327
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/VoiceListTableViewController.h
+c0000000052068D3C0000000000000126
+t1376161084
+s294
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/VoiceListTableViewController.m
+c0000000052068D0E0000000000000E2F
+t1376161038
+s3631
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/en.lproj/InfoPlist.strings
+c00000000520672E0000000000000002D
+t1376154336
+s45
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/en.lproj/MainStoryboard.storyboard
+c0000000052068CE600000000000036A6
+t1376160998
+s13990
+
+N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/main.m
+c00000000520672E00000000000000152
+t1376154336
+s338
+
+NTalking Toga/Talking Toga-Info.plist
+c00000000520672E0000000000000059A
+t1376154336
+s1434
+
+CBuild AST from "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/AppDelegate.m"
+r0
+
+CBuild AST from "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/DetailViewController.m"
+r0
+
+CBuild AST from "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/MasterViewController.m"
+r0
+
+CBuild AST from "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/VoiceListTableViewController.m"
+r0
+
+CBuild AST from "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/main.m"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies07ef876ecbb6b741^8732886ecbb6b741^---0#1#0#--18"Check dependencies36"C29A1427-2E78-409D-94F1-FA92B2113812-
+
+CCompileC "Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/AppDelegate.o" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/AppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s397855596.907695
+e397855597.189747
+r1
+xCompileC
+xBuild/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/AppDelegate.o
+x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/AppDelegate.m4986e86ccbb6b741^d3a0306dcbb6b741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/AppDelegate.m0000000000000000^4085"CompileC "Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/AppDelegate.o" "Talking Toga/AppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Talking Toga-generated-files.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Talking Toga-own-target-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Talking Toga-all-target-headers.hmap" -iquote "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Talking Toga-project-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/DerivedSources/i386" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/DerivedSources" "-F/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator" -DNS_BLOCK_ASSERTIONS=1 -include "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-ghkpenilidpasfgtexruuqwvudzf/Talking Toga-Prefix.pch" -MMD -MT dependencies -MF "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/AppDelegate.d" --serialize-diagnostics "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/AppDelegate.dia" -c "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/AppDelegate.m" -o "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/AppDelegate.o"36"B72C9E56-4945-4296-8BDC-B3ECEFD36F3D-
+
+CCompileC "Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/DetailViewController.o" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/DetailViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s397855596.907873
+e397855597.189797
+r1
+xCompileC
+xBuild/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/DetailViewController.o
+x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/DetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/DetailViewController.m:48:5: warning: expression result unused [-Wunused-value]
+o    [self.talkImageView initWithImage:image];
+o    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/DetailViewController.m7a8ee86ccbb6b741^05a5306dcbb6b741^-264"/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/DetailViewController.m:48:5: warning: expression result unused [-Wunused-value]    [self.talkImageView initWithImage:image];    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~1 warning generated.-0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/DetailViewController.m0000000000000000^4139"CompileC "Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/DetailViewController.o" "Talking Toga/DetailViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Talking Toga-generated-files.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Talking Toga-own-target-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Talking Toga-all-target-headers.hmap" -iquote "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Talking Toga-project-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/DerivedSources/i386" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/DerivedSources" "-F/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator" -DNS_BLOCK_ASSERTIONS=1 -include "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-ghkpenilidpasfgtexruuqwvudzf/Talking Toga-Prefix.pch" -MMD -MT dependencies -MF "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/DetailViewController.d" --serialize-diagnostics "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/DetailViewController.dia" -c "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/DetailViewController.m" -o "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/DetailViewController.o"36"16980DA8-0F42-48D9-AB96-B195914A01CC-
+
+CCompileC "Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/MasterViewController.o" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/MasterViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s397855598.551409
+e397855598.573007
+r0
+xCompileC
+xBuild/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/MasterViewController.o
+x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/MasterViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/MasterViewController.m:41:75: error: expected expression
+oNSMutableArray *voiceMutableArray = [[NSMutableArray alloc] initWithArray:<#(NSArray *)#>];
+o                                                                          ^
+o/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/MasterViewController.m:41:76: error: expected expression
+oNSMutableArray *voiceMutableArray = [[NSMutableArray alloc] initWithArray:<#(NSArray *)#>];
+o                                                                           ^
+o/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/MasterViewController.m:80:11: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+o    NSLog([object description]);
+o          ^~~~~~~~~~~~~~~~~~~~
+o/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/MasterViewController.m:119:11: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+o    NSLog([segue identifier]);
+o          ^~~~~~~~~~~~~~~~~~
+o2 warnings and 2 errors generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/MasterViewController.me04b8d6ecbb6b741^0cad926ecbb6b741^-1139"/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/MasterViewController.m:41:75: error: expected expressionNSMutableArray *voiceMutableArray = [[NSMutableArray alloc] initWithArray:<#(NSArray *)#>];                                                                          ^/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/MasterViewController.m:41:76: error: expected expressionNSMutableArray *voiceMutableArray = [[NSMutableArray alloc] initWithArray:<#(NSArray *)#>];                                                                           ^/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/MasterViewController.m:80:11: warning: format string is not a string literal (potentially insecure) [-Wformat-security]    NSLog([object description]);          ^~~~~~~~~~~~~~~~~~~~/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/MasterViewController.m:119:11: warning: format string is not a string literal (potentially insecure) [-Wformat-security]    NSLog([segue identifier]);          ^~~~~~~~~~~~~~~~~~2 warnings and 2 errors generated.4(36%IDEClangDiagnosticActivityLogMessage2@19"Expected expression-397855598#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@114"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/MasterViewController.m0000000000000000^40#74#40#74#1291#0#11"Parse Issue--2@19"Expected expression-397855598#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@114"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/MasterViewController.m0000000000000000^40#75#40#75#1292#0#11"Parse Issue--2@60"Format string is not a string literal (potentially insecure)-397855598#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@114"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/MasterViewController.m0000000000000000^79#10#79#10#2393#0#19"Format String Issue1(3@114"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/MasterViewController.m0000000000000000^79#10#79#30#2393#19#-2@60"Format string is not a string literal (potentially insecure)-397855598#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@114"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/MasterViewController.m0000000000000000^118#10#118#10#3752#0#19"Format String Issue1(3@114"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/MasterViewController.m0000000000000000^118#10#118#28#3752#17#-0#0#0#-19%DVTDocumentLocation4@114"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/MasterViewController.m0000000000000000^4139"CompileC "Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/MasterViewController.o" "Talking Toga/MasterViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Talking Toga-generated-files.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Talking Toga-own-target-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Talking Toga-all-target-headers.hmap" -iquote "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Talking Toga-project-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/DerivedSources/i386" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/DerivedSources" "-F/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator" -DNS_BLOCK_ASSERTIONS=1 -include "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-ghkpenilidpasfgtexruuqwvudzf/Talking Toga-Prefix.pch" -MMD -MT dependencies -MF "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/MasterViewController.d" --serialize-diagnostics "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/MasterViewController.dia" -c "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/MasterViewController.m" -o "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/MasterViewController.o"36"D724070B-EB0F-4FB6-923C-F8F922C13863-
+
+CCompileC "Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/VoiceListTableViewController.o" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/VoiceListTableViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s397855596.907691
+e397855597.189805
+r1
+xCompileC
+xBuild/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/VoiceListTableViewController.o
+x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/VoiceListTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/VoiceListTableViewController.m:47:2: warning: Potentially incomplete method implementation. [-W#warnings]
+o#warning Potentially incomplete method implementation.
+o ^
+o/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/VoiceListTableViewController.m:54:2: warning: Incomplete method implementation. [-W#warnings]
+o#warning Incomplete method implementation.
+o ^
+o/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/VoiceListTableViewController.m:123:11: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+o    NSLog([segue identifier]);
+o          ^~~~~~~~~~~~~~~~~~
+o3 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/VoiceListTableViewController.m2f88e86ccbb6b741^11a6306dcbb6b741^-731"/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/VoiceListTableViewController.m:47:2: warning: Potentially incomplete method implementation. [-W#warnings]#warning Potentially incomplete method implementation. ^/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/VoiceListTableViewController.m:54:2: warning: Incomplete method implementation. [-W#warnings]#warning Incomplete method implementation. ^/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/VoiceListTableViewController.m:123:11: warning: format string is not a string literal (potentially insecure) [-Wformat-security]    NSLog([segue identifier]);          ^~~~~~~~~~~~~~~~~~3 warnings generated.-0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/VoiceListTableViewController.m0000000000000000^4187"CompileC "Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/VoiceListTableViewController.o" "Talking Toga/VoiceListTableViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Talking Toga-generated-files.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Talking Toga-own-target-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Talking Toga-all-target-headers.hmap" -iquote "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Talking Toga-project-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/DerivedSources/i386" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/DerivedSources" "-F/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator" -DNS_BLOCK_ASSERTIONS=1 -include "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-ghkpenilidpasfgtexruuqwvudzf/Talking Toga-Prefix.pch" -MMD -MT dependencies -MF "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/VoiceListTableViewController.d" --serialize-diagnostics "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/VoiceListTableViewController.dia" -c "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/VoiceListTableViewController.m" -o "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/VoiceListTableViewController.o"36"84E25661-2C96-4186-AF9F-7A1DB61C60B4-
+
+CCompileC "Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/main.o" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s397855596.907642
+e397855597.189756
+r1
+xCompileC
+xBuild/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/main.o
+x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/main.mb684e86ccbb6b741^1ea3306dcbb6b741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/main.m0000000000000000^4043"CompileC "Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/main.o" "Talking Toga/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Talking Toga-generated-files.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Talking Toga-own-target-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Talking Toga-all-target-headers.hmap" -iquote "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Talking Toga-project-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/DerivedSources/i386" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/DerivedSources" "-F/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator" -DNS_BLOCK_ASSERTIONS=1 -include "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-ghkpenilidpasfgtexruuqwvudzf/Talking Toga-Prefix.pch" -MMD -MT dependencies -MF "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/main.d" --serialize-diagnostics "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/main.dia" -c "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/main.m" -o "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Objects-normal/i386/main.o"36"15DD065B-A3B3-4068-8D51-D9D48EA745B8-
+
+CCompileStoryboard "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/en.lproj/MainStoryboard.storyboard"
+r0
+
+CCopyStringsFile "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator/Talking Toga.app/en.lproj/InfoPlist.strings" "Talking Toga/en.lproj/InfoPlist.strings"
+r0
+
+CCpResource "Talking Toga/Default-568h@2x.png" "Build/Products/Release-iphonesimulator/Talking Toga.app/Default-568h@2x.png"
+r0
+
+CCpResource "Talking Toga/Default.png" "Build/Products/Release-iphonesimulator/Talking Toga.app/Default.png"
+r0
+
+CCpResource "Talking Toga/Default@2x.png" "Build/Products/Release-iphonesimulator/Talking Toga.app/Default@2x.png"
+r0
+
+CGenerateDSYMFile "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator/Talking Toga.app.dSYM" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator/Talking Toga.app/Talking Toga"
+r0
+
+CLd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator/Talking Toga.app/Talking Toga" normal i386
+r0
+
+CProcessInfoPlistFile "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator/Talking Toga.app/Info.plist" "Talking Toga/Talking Toga-Info.plist"
+s397855596.083039
+e397855596.085994
+r1
+xProcessInfoPlistFile
+x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator/Talking Toga.app/Info.plist
+xTalking Toga/Talking Toga-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Process Talking Toga/Talking Toga-Info.plista950156ccbb6b741^2121166ccbb6b741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/Talking%20Toga-Info.plist0000000000000000^790"ProcessInfoPlistFile "Build/Products/Release-iphonesimulator/Talking Toga.app/Info.plist" "Talking Toga/Talking Toga-Info.plist"    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility "Talking Toga/Talking Toga-Info.plist" -genpkginfo "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator/Talking Toga.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator/Talking Toga.app/Info.plist"36"B0142422-0CFD-4D9C-ADE5-8EB3AA971D71-
+
+CProcessPCH "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-ghkpenilidpasfgtexruuqwvudzf/Talking Toga-Prefix.pch.pth" "Talking Toga/Talking Toga-Prefix.pch" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s397855596.094100
+e397855596.901249
+r1
+xProcessPCH
+x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-ghkpenilidpasfgtexruuqwvudzf/Talking Toga-Prefix.pch.pth
+xTalking Toga/Talking Toga-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile Talking Toga/Talking Toga-Prefix.pchb533186ccbb6b741^7fdbe76ccbb6b741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/Talking%20Toga-Prefix.pch0000000000000000^3928"ProcessPCH "Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-ghkpenilidpasfgtexruuqwvudzf/Talking Toga-Prefix.pch.pth" "Talking Toga/Talking Toga-Prefix.pch" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Talking Toga-generated-files.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Talking Toga-own-target-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Talking Toga-all-target-headers.hmap" -iquote "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/Talking Toga-project-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/DerivedSources/i386" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Release-iphonesimulator/Talking Toga.build/DerivedSources" "-F/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator" -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-ghkpenilidpasfgtexruuqwvudzf/Talking Toga-Prefix.pch.dia" -c "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/Talking Toga-Prefix.pch" -o "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-ghkpenilidpasfgtexruuqwvudzf/Talking Toga-Prefix.pch.pth" -MMD -MT dependencies -MF "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-ghkpenilidpasfgtexruuqwvudzf/Talking Toga-Prefix.pch.d"36"CD23E648-F1ED-4FBF-8798-DABC00F3B8A3-
+
+CProcessPCH "/Users/gentleman/Library/Developer/Xcode/DerivedData/Talking_Toga-ciwsfprrpdmfdacxppgpfwseabxo/Index/PrecompiledHeaders/Talking Toga-Prefix-fwdgityzflsagrbwuggpifxuexfb_ast/Talking Toga-Prefix.pch.pth" "Talking Toga/Talking Toga-Prefix.pch" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Release-iphonesimulator/Talking Toga.app"
+r0
+

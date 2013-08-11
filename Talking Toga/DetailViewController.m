@@ -29,9 +29,10 @@
 - (void)configureView
 {
     // Update the user interface for the detail item.
-
+    NSLog(@"きたよー");
+    NSLog([self.detailItem description]);
     if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
+        self.detailDescriptionLabel.text = [self.detailItem objectForKey:@"name"];
     }
 }
 
@@ -40,6 +41,13 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [self configureView];
+    self.title = [self.detailItem objectForKey:@"name"];
+    
+    NSData *dt = [NSData dataWithContentsOfURL:
+                  [NSURL URLWithString:[self.detailItem objectForKey:@"photo"]]];
+    UIImage *image = [[UIImage alloc] initWithData:dt];
+    [self.talkImageView initWithImage:image];
+
 }
 
 - (void)didReceiveMemoryWarning

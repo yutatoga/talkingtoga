@@ -19,6 +19,7 @@
 		8D2118CA17B6AA6000FC98AB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D2118C817B6AA6000FC98AB /* MainStoryboard.storyboard */; };
 		8D2118CD17B6AA6000FC98AB /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2118CC17B6AA6000FC98AB /* MasterViewController.m */; };
 		8D2118D017B6AA6000FC98AB /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2118CF17B6AA6000FC98AB /* DetailViewController.m */; };
+		8D2118DB17B6C3A500FC98AB /* VoiceListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2118DA17B6C3A500FC98AB /* VoiceListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		8D2118CC17B6AA6000FC98AB /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		8D2118CE17B6AA6000FC98AB /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		8D2118CF17B6AA6000FC98AB /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		8D2118D917B6C3A500FC98AB /* VoiceListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceListTableViewController.h; sourceTree = "<group>"; };
+		8D2118DA17B6C3A500FC98AB /* VoiceListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				8D2118C817B6AA6000FC98AB /* MainStoryboard.storyboard */,
 				8D2118CB17B6AA6000FC98AB /* MasterViewController.h */,
 				8D2118CC17B6AA6000FC98AB /* MasterViewController.m */,
+				8D2118D917B6C3A500FC98AB /* VoiceListTableViewController.h */,
+				8D2118DA17B6C3A500FC98AB /* VoiceListTableViewController.m */,
 				8D2118CE17B6AA6000FC98AB /* DetailViewController.h */,
 				8D2118CF17B6AA6000FC98AB /* DetailViewController.m */,
 				8D2118B717B6AA6000FC98AB /* Supporting Files */,
@@ -182,6 +187,7 @@
 				8D2118C117B6AA6000FC98AB /* AppDelegate.m in Sources */,
 				8D2118CD17B6AA6000FC98AB /* MasterViewController.m in Sources */,
 				8D2118D017B6AA6000FC98AB /* DetailViewController.m in Sources */,
+				8D2118DB17B6C3A500FC98AB /* VoiceListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
