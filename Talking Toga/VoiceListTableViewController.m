@@ -34,7 +34,7 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    
+    self.title = [self.detailItem objectForKey:@"name"];
 }
 
 - (void)didReceiveMemoryWarning
@@ -120,15 +120,16 @@
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
      */
+
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    NSLog(@"押されたよ");
-    NSLog([segue identifier]);
-    NSLog(@"fffff");
+    NSLog([[NSString stringWithFormat:@"%d", [self.tableView indexPathForSelectedRow].row] stringByAppendingFormat:@"番目が押されたよ"]);
     if ([[segue identifier] isEqualToString:@"showPlayView"]) {
         [[segue destinationViewController] setDetailItem:self.detailItem];
+        int foo = [self.tableView indexPathForSelectedRow].row;
+        [[segue destinationViewController] setWhich:foo];
     }
 }
 
