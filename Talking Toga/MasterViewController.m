@@ -30,28 +30,55 @@
 
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
-    talkDict = [NSMutableDictionary dictionary];
     
-    NSMutableDictionary *togaDict = [NSMutableDictionary dictionary];
-    [togaDict setObject:@"James Toga" forKey:@"name"];
-    [togaDict setObject:@"Sobash" forKey:@"nickName"];
-    [togaDict setObject:@"Future Lab" forKey:@"company"];
-    [togaDict setObject:@"Tokyo" forKey:@"address"];
-    [togaDict setObject:@"http://yutatoga.com/jp/img/hero.jpg" forKey:@"photo"];
+    
+    
+    NSMutableArray *voiceArray = [NSMutableArray array];
+    
     NSMutableArray *voiceMutableArray = [NSArray arrayWithObjects:
                                          @"はーい",
                                          @"こら",
                                          @"やばくないすか",
                                          @"なんすか", nil];
-    [togaDict setObject:voiceMutableArray forKey:@"voiceList"];
+    NSMutableArray *instantImageFileName = [NSArray arrayWithObjects:
+                                         @"hai.jpg",
+                                         @"kora.jpg",
+                                         @"yabakunaisuka.jpg",
+                                         @"nansuka.jpg", nil];
     
-    _objects = [[NSMutableArray alloc] init];
+    NSString *instantName = @"James Toga";
+    NSString *instantAddress = @"Tokyo";
+    NSString *instantBelongs = @"Future Lab";
     
-    [_objects insertObject:togaDict atIndex:0];
+    for (int i = 0; i<voiceMutableArray.count; i++) {
+        [voiceArray addObject:[self createVoiceDict:voiceMutableArray[i] name:instantName belongs:instantBelongs address:instantAddress imageFileName:instantImageFileName[i] IDNum:[NSNumber numberWithInt:i]]];
+    }
+    
+    _objects = [NSMutableArray array];
+    [_objects addObject:voiceArray];
+}
+
+- (NSMutableDictionary *)createVoiceDict:(NSString *)voice
+                                name:(NSString *)name
+                                belongs:(NSString *)belongs
+                                address:(NSString *)address
+                                imageFileName:(NSString *)imageFileName
+                                   IDNum:(NSNumber *)IDNum{
+    
+    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
+    [dict setObject:name forKey:@"name"];
+    [dict setObject:belongs forKey:@"belongs"];
+    [dict setObject:address forKey:@"address"];
+    [dict setObject:imageFileName forKey:@"imageFileName"];
+    [dict setObject:voice forKey:@"voice"];
+    [dict setObject:IDNum forKey:@"IDNum"];
+    
+    return dict;
 }
 
 - (void)didReceiveMemoryWarning
 {
+    
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
@@ -85,7 +112,7 @@
 //    NSDate *object = _objects[indexPath.row];
 //    NSLog([object description]);
 //    cell.textLabel.text = [object description];
-    cell.textLabel.text = [[_objects objectAtIndex:indexPath.row] objectForKey:@"name"];
+    cell.textLabel.text = [[_objects objectAtIndex:indexPath.row][0] objectForKey:@"name"];
     return cell;
 }
 
@@ -123,16 +150,10 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    NSLog([segue identifier]);
     if ([[segue identifier] isEqualToString:@"showVoiceListTableView"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         NSDictionary *selectedDict = _objects[indexPath.row];
         [[segue destinationViewController] setDetailItem:selectedDict];
-    }
-    if ([[segue identifier] isEqualToString:@"showDetail"]) {
-        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSDate *object = _objects[indexPath.row];
-        [[segue destinationViewController] setDetailItem:object];
     }
 }
 

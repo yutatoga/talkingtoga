@@ -43,11 +43,8 @@
     [self configureView];
     
 // FIXME: change 2 to which row was pushed
-    self.title = [[self.detailItem objectForKey:@"voiceList"] objectAtIndex:self.which];
-    
-    NSData *dt = [NSData dataWithContentsOfURL:
-                  [NSURL URLWithString:[self.detailItem objectForKey:@"photo"]]];
-    UIImage *image = [[UIImage alloc] initWithData:dt];
+    self.title = [self.detailItem objectForKey:@"voice"];
+    UIImage *image = [UIImage imageNamed:[self.detailItem objectForKey:@"imageFileName"]];
     [self.talkImageView initWithImage:image];
 
     
