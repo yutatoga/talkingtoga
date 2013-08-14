@@ -10,6 +10,7 @@
 
 @interface MasterViewController : UITableViewController{
     NSMutableDictionary *talkDict;
+    UITextField *someTextField;
 }
 - (NSMutableDictionary*)createVoiceDict:(NSString *)voice
                                    name:(NSString *)name
