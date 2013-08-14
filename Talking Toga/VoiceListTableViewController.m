@@ -34,7 +34,7 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    self.title = [self.detailItem[0] objectForKey:@"name"];
+    self.title = [self.detailItem objectForKey:@"name"];
 }
 
 - (void)didReceiveMemoryWarning
@@ -54,7 +54,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return [self.detailItem count];
+    return [[self.detailItem objectForKey:@"contentsDictArray"] count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -63,7 +63,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     // Configure the cell...
-    cell.textLabel.text = [self.detailItem[indexPath.row] objectForKey:@"voice"];
+    cell.textLabel.text = [[[self.detailItem objectForKey:@"contentsDictArray"] objectAtIndex:indexPath.row]  objectForKey:@"voice"];
     return cell;
 }
 
@@ -125,8 +125,7 @@
     NSLog([[NSString stringWithFormat:@"%d", [self.tableView indexPathForSelectedRow].row] stringByAppendingFormat:@"番目が押されたよ"]);
     if ([[segue identifier] isEqualToString:@"showPlayView"]) {
         int touchRowNum = [self.tableView indexPathForSelectedRow].row;
-        [[segue destinationViewController] setDetailItem:[self.detailItem objectAtIndex:touchRowNum]];
-        [[segue destinationViewController] setWhich:touchRowNum];
+        [[segue destinationViewController] setDetailItem:[[self.detailItem objectForKey:@"contentsDictArray"] objectAtIndex:touchRowNum]];
     }
 }
 

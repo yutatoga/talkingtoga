@@ -46,19 +46,6 @@
     self.title = [self.detailItem objectForKey:@"voice"];
     UIImage *image = [UIImage imageNamed:[self.detailItem objectForKey:@"imageFileName"]];
     [self.talkImageView initWithImage:image];
-
-    
-    //FIXME: to more flexible
-    //audio
-    audioFileArray = [NSMutableArray array];
-    [audioFileArray addObject:@"hai"];
-    [audioFileArray addObject:@"kora"];
-    [audioFileArray addObject:@"yabakunaisuka"];
-    [audioFileArray addObject:@"nansuka"];
-    
-    
-
-
 }
 
 - (void)didReceiveMemoryWarning
@@ -70,9 +57,8 @@
 
 
 - (IBAction)playButtonPushed:(id)sender {
-    //player
-    //avplayer
-    NSString *path2 = [[NSBundle mainBundle] pathForResource:[audioFileArray objectAtIndex:self.which] ofType:@"wav"];
+    //player    
+    NSString *path2 = [[NSBundle mainBundle] pathForResource:[[self.detailItem objectForKey:@"audioFileName"] componentsSeparatedByString:@"."][0] ofType:[[self.detailItem objectForKey:@"audioFileName"] componentsSeparatedByString:@"."][1]];
     NSURL *url = [NSURL fileURLWithPath:path2];
     AVAudioPlayer *audio = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
     player = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];

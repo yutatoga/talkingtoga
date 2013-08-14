@@ -12,11 +12,6 @@
     NSMutableDictionary *talkDict;
     UITextField *someTextField;
 }
-- (NSMutableDictionary*)createVoiceDict:(NSString *)voice
-                                   name:(NSString *)name
-                                belongs:(NSString *)belongs
-                                address:(NSString *)address
-                          photoFileName:(NSString *)photoFileName
-                                  IDNum:(NSNumber *)IDNum;
+
 
 @end

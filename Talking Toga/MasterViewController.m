@@ -40,41 +40,61 @@
                                          @"こら",
                                          @"やばくないすか",
                                          @"なんすか", nil];
-    NSMutableArray *instantImageFileName = [NSArray arrayWithObjects:
+    NSMutableArray *imageFileNameArray = [NSArray arrayWithObjects:
                                          @"hai.jpg",
                                          @"kora.jpg",
                                          @"yabakunaisuka.jpg",
                                          @"nansuka.jpg", nil];
     
-    NSString *instantName = @"James Toga";
-    NSString *instantAddress = @"Tokyo";
-    NSString *instantBelongs = @"Future Lab";
+    NSMutableArray *audioFileNameArray = [NSMutableArray array];
+    [audioFileNameArray addObject:@"hai.wav"];
+    [audioFileNameArray addObject:@"kora.wav"];
+    [audioFileNameArray addObject:@"yabakunaisuka.wav"];
+    [audioFileNameArray addObject:@"nansuka.wav"];
+    
+    NSString *instantName = @"James Toga";    
     
     for (int i = 0; i<voiceMutableArray.count; i++) {
-        [voiceArray addObject:[self createVoiceDict:voiceMutableArray[i] name:instantName belongs:instantBelongs address:instantAddress imageFileName:instantImageFileName[i] IDNum:[NSNumber numberWithInt:i]]];
+        [voiceArray addObject:[self createContentsDict:voiceMutableArray[i] name:instantName imageFileName:imageFileNameArray[i] audioFileName:audioFileNameArray[i] IDNum:[NSNumber numberWithInt:i]]];
     }
-    
     _objects = [NSMutableArray array];
-    [_objects addObject:voiceArray];
+    
+    NSMutableDictionary *dict = [self createOutlineDict:@"James Toga" contentsDictArray:voiceArray belongs:@"Future Lab" address:@"Tokyo" IDNum:[NSNumber numberWithInt:0]];
+    [_objects addObject:dict];
 }
 
-- (NSMutableDictionary *)createVoiceDict:(NSString *)voice
-                                name:(NSString *)name
-                                belongs:(NSString *)belongs
-                                address:(NSString *)address
-                                imageFileName:(NSString *)imageFileName
-                                   IDNum:(NSNumber *)IDNum{
-    
+- (NSMutableDictionary *)createContentsDict:(NSString *)voice
+                                       name:(NSString *)name
+                              imageFileName:(NSString *)imageFileName
+                              audioFileName:(NSString *)audioFileName
+                                      IDNum:(NSNumber *)IDNum{
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
-    [dict setObject:name forKey:@"name"];
-    [dict setObject:belongs forKey:@"belongs"];
-    [dict setObject:address forKey:@"address"];
-    [dict setObject:imageFileName forKey:@"imageFileName"];
     [dict setObject:voice forKey:@"voice"];
+    [dict setObject:name forKey:@"name"];
+    [dict setObject:imageFileName forKey:@"imageFileName"];
+    [dict setObject:audioFileName forKey:@"audioFileName"];
     [dict setObject:IDNum forKey:@"IDNum"];
     
     return dict;
 }
+
+- (NSMutableDictionary *)createOutlineDict:(NSString *)name
+                         contentsDictArray:(NSMutableArray *)contsntsDictArray
+                                   belongs:(NSString *)belongs
+                                   address:(NSString *)address
+                                     IDNum:(NSNumber *)IDNum{
+    
+    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
+    [dict setObject:name forKey:@"name"];
+    [dict setObject:contsntsDictArray forKey:@"contentsDictArray"];
+    [dict setObject:belongs forKey:@"belongs"];
+    [dict setObject:address forKey:@"address"];
+    [dict setObject:IDNum forKey:@"IDNum"];
+    
+    return dict;
+}
+
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -107,32 +127,10 @@
             if (!_objects) {
                 _objects = [[NSMutableArray alloc] init];
             }
-//            NSMutableArray *voiceArray = [NSMutableArray array];
-//            NSMutableArray *voiceMutableArray = [NSArray arrayWithObjects:
-//                                                 @"はーい",
-//                                                 @"こら",
-//                                                 @"やばくないすか",
-//                                                 @"なんすか", nil];
-//            NSMutableArray *instantImageFileName = [NSArray arrayWithObjects:
-//                                                    @"hai.jpg",
-//                                                    @"kora.jpg",
-//                                                    @"yabakunaisuka.jpg",
-//                                                    @"nansuka.jpg", nil];
-//            NSString *instantName = someTextField.text;
-//            NSString *instantAddress = @"Tokyo";
-//            NSString *instantBelongs = @"Future Lab";
-//
-//            for (int i = 0; i<voiceMutableArray.count; i++) {
-//                [voiceArray addObject:[self createVoiceDict:voiceMutableArray[i] name:instantName belongs:instantBelongs address:instantAddress imageFileName:instantImageFileName[i] IDNum:[NSNumber numberWithInt:i]]];
-//            }
 
-            //now here
-            NSMutableArray *newArray = [NSMutableArray array];
             NSMutableDictionary *newDict = [NSMutableDictionary dictionary];
             [newDict setObject:someTextField.text forKey:@"name"];
-            [newArray addObject:newDict];
-            
-            [_objects insertObject:newArray atIndex:0];
+            [_objects insertObject:newDict atIndex:0];
             NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
             [self.tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
             break;
@@ -155,11 +153,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-//
-//    NSDate *object = _objects[indexPath.row];
-//    NSLog([object description]);
-//    cell.textLabel.text = [object description];
-    cell.textLabel.text = [[_objects objectAtIndex:indexPath.row][0] objectForKey:@"name"];
+    cell.textLabel.text = [[_objects objectAtIndex:indexPath.row] objectForKey:@"name"];
     return cell;
 }
 
@@ -176,7 +170,6 @@
         [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
     } else if (editingStyle == UITableViewCellEditingStyleInsert) {
         // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
-        NSLog(@"foobar");
     }
 }
 
