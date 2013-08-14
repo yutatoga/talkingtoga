@@ -96,8 +96,6 @@
 }
 
 -(void)alertView:(UIAlertView*)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
-    NSLog(@"アラート押されました。");
-    
     switch (buttonIndex) {
         case 0:
             //left button(cancel) was tapeed
@@ -109,29 +107,32 @@
             if (!_objects) {
                 _objects = [[NSMutableArray alloc] init];
             }
-            NSMutableArray *voiceArray = [NSMutableArray array];
-            NSMutableArray *voiceMutableArray = [NSArray arrayWithObjects:
-                                                 @"はーい",
-                                                 @"こら",
-                                                 @"やばくないすか",
-                                                 @"なんすか", nil];
-            NSMutableArray *instantImageFileName = [NSArray arrayWithObjects:
-                                                    @"hai.jpg",
-                                                    @"kora.jpg",
-                                                    @"yabakunaisuka.jpg",
-                                                    @"nansuka.jpg", nil];
-            NSString *instantName = someTextField.text;
-            NSString *instantAddress = @"Tokyo";
-            NSString *instantBelongs = @"Future Lab";
-
-            for (int i = 0; i<voiceMutableArray.count; i++) {
-                [voiceArray addObject:[self createVoiceDict:voiceMutableArray[i] name:instantName belongs:instantBelongs address:instantAddress imageFileName:instantImageFileName[i] IDNum:[NSNumber numberWithInt:i]]];
-            }
+//            NSMutableArray *voiceArray = [NSMutableArray array];
+//            NSMutableArray *voiceMutableArray = [NSArray arrayWithObjects:
+//                                                 @"はーい",
+//                                                 @"こら",
+//                                                 @"やばくないすか",
+//                                                 @"なんすか", nil];
+//            NSMutableArray *instantImageFileName = [NSArray arrayWithObjects:
+//                                                    @"hai.jpg",
+//                                                    @"kora.jpg",
+//                                                    @"yabakunaisuka.jpg",
+//                                                    @"nansuka.jpg", nil];
+//            NSString *instantName = someTextField.text;
+//            NSString *instantAddress = @"Tokyo";
+//            NSString *instantBelongs = @"Future Lab";
+//
+//            for (int i = 0; i<voiceMutableArray.count; i++) {
+//                [voiceArray addObject:[self createVoiceDict:voiceMutableArray[i] name:instantName belongs:instantBelongs address:instantAddress imageFileName:instantImageFileName[i] IDNum:[NSNumber numberWithInt:i]]];
+//            }
 
             //now here
-//            NSMutableArray *newArray = [NSMutableArray array];
+            NSMutableArray *newArray = [NSMutableArray array];
+            NSMutableDictionary *newDict = [NSMutableDictionary dictionary];
+            [newDict setObject:someTextField.text forKey:@"name"];
+            [newArray addObject:newDict];
             
-            [_objects insertObject:voiceArray atIndex:0];
+            [_objects insertObject:newArray atIndex:0];
             NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
             [self.tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
             break;
