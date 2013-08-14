@@ -25,6 +25,11 @@
 		8D2118E217B75EC700FC98AB /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2118E117B75EC700FC98AB /* MediaPlayer.framework */; };
 		8D2118E617B7605700FC98AB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2118E517B7605700FC98AB /* MobileCoreServices.framework */; };
 		8D2118E817B7605C00FC98AB /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2118E717B7605C00FC98AB /* AssetsLibrary.framework */; };
+		8D3F0D8F17B9820200004AF3 /* toga_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D3F0D8E17B9820200004AF3 /* toga_iphone.png */; };
+		8D3F0D9117B982C000004AF3 /* 213013藤賀雄太_square.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D3F0D9017B982C000004AF3 /* 213013藤賀雄太_square.png */; };
+		8D3F0D9317B984BC00004AF3 /* 213013藤賀雄太_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D3F0D9217B984BC00004AF3 /* 213013藤賀雄太_iphone.png */; };
+		8D3F0D9517B9856900004AF3 /* 213013藤賀雄太_iphone2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D3F0D9417B9856900004AF3 /* 213013藤賀雄太_iphone2.png */; };
+		8D3F0D9717B985F100004AF3 /* toga_iphone2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D3F0D9617B985F100004AF3 /* toga_iphone2.png */; };
 		8DFC42A717B806E400382E8F /* hai.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8DFC42A317B806E400382E8F /* hai.wav */; };
 		8DFC42A817B806E400382E8F /* kora.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8DFC42A417B806E400382E8F /* kora.wav */; };
 		8DFC42AA17B806E400382E8F /* yabakunaisuka.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8DFC42A617B806E400382E8F /* yabakunaisuka.wav */; };
@@ -62,6 +67,12 @@
 		8D2118E117B75EC700FC98AB /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		8D2118E517B7605700FC98AB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		8D2118E717B7605C00FC98AB /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		8D3F0D8E17B9820200004AF3 /* toga_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toga_iphone.png; sourceTree = "<group>"; };
+		8D3F0D9017B982C000004AF3 /* 213013藤賀雄太_square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "213013藤賀雄太_square.png"; sourceTree = "<group>"; };
+		8D3F0D9217B984BC00004AF3 /* 213013藤賀雄太_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "213013藤賀雄太_iphone.png"; sourceTree = "<group>"; };
+		8D3F0D9417B9856900004AF3 /* 213013藤賀雄太_iphone2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "213013藤賀雄太_iphone2.png"; sourceTree = "<group>"; };
+		8D3F0D9617B985F100004AF3 /* toga_iphone2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toga_iphone2.png; sourceTree = "<group>"; };
+		8D5F5F3F17B9723E0062B43F /* Talking Toga.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Talking Toga.entitlements"; sourceTree = "<group>"; };
 		8DFC42A317B806E400382E8F /* hai.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hai.wav; sourceTree = "<group>"; };
 		8DFC42A417B806E400382E8F /* kora.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kora.wav; sourceTree = "<group>"; };
 		8DFC42A617B806E400382E8F /* yabakunaisuka.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = yabakunaisuka.wav; sourceTree = "<group>"; };
@@ -93,6 +104,11 @@
 		8D2118A417B6AA6000FC98AB = {
 			isa = PBXGroup;
 			children = (
+				8D3F0D9617B985F100004AF3 /* toga_iphone2.png */,
+				8D3F0D9417B9856900004AF3 /* 213013藤賀雄太_iphone2.png */,
+				8D3F0D9217B984BC00004AF3 /* 213013藤賀雄太_iphone.png */,
+				8D3F0D9017B982C000004AF3 /* 213013藤賀雄太_square.png */,
+				8D3F0D8E17B9820200004AF3 /* toga_iphone.png */,
 				8D2118E717B7605C00FC98AB /* AssetsLibrary.framework */,
 				8D2118E517B7605700FC98AB /* MobileCoreServices.framework */,
 				8D2118B617B6AA6000FC98AB /* Talking Toga */,
@@ -124,6 +140,7 @@
 		8D2118B617B6AA6000FC98AB /* Talking Toga */ = {
 			isa = PBXGroup;
 			children = (
+				8D5F5F3F17B9723E0062B43F /* Talking Toga.entitlements */,
 				8D2118BF17B6AA6000FC98AB /* AppDelegate.h */,
 				8D2118C017B6AA6000FC98AB /* AppDelegate.m */,
 				8D2118C817B6AA6000FC98AB /* MainStoryboard.storyboard */,
@@ -226,6 +243,11 @@
 				8DFC42B217B9274700382E8F /* kora.jpg in Resources */,
 				8DFC42B317B9274700382E8F /* nansuka.jpg in Resources */,
 				8DFC42B417B9274700382E8F /* yabakunaisuka.jpg in Resources */,
+				8D3F0D8F17B9820200004AF3 /* toga_iphone.png in Resources */,
+				8D3F0D9117B982C000004AF3 /* 213013藤賀雄太_square.png in Resources */,
+				8D3F0D9317B984BC00004AF3 /* 213013藤賀雄太_iphone.png in Resources */,
+				8D3F0D9517B9856900004AF3 /* 213013藤賀雄太_iphone2.png in Resources */,
+				8D3F0D9717B985F100004AF3 /* toga_iphone2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +301,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yuta Toga (EHADUUTX9G)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yuta Toga (EHADUUTX9G)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -294,6 +317,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "6DC76783-6BDD-4D0A-8B5F-CD14ED5E6CEA";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6DC76783-6BDD-4D0A-8B5F-CD14ED5E6CEA";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -310,7 +335,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yuta Toga (EHADUUTX9G)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yuta Toga (EHADUUTX9G)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -318,6 +344,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "6DC76783-6BDD-4D0A-8B5F-CD14ED5E6CEA";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6DC76783-6BDD-4D0A-8B5F-CD14ED5E6CEA";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
