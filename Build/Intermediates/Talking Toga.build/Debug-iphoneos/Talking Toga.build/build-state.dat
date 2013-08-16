@@ -3,39 +3,39 @@ v5
 r1
 cCheck dependencies
 cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist "Build/Products/Debug-iphoneos/Talking Toga.app/ResourceRules.plist"
-cProcessInfoPlistFile "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Info.plist" "Talking Toga/Talking Toga-Info.plist"
-cProcessPCH "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-comhhhousxkubybwyfoowopazwdg/Talking Toga-Prefix.pch.pth" "Talking Toga/Talking Toga-Prefix.pch" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/VoiceListTableViewController.o" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/VoiceListTableViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/main.o" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/MasterViewController.o" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/MasterViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/AppDelegate.o" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/AppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/DetailViewController.o" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/DetailViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/RecordViewController.o" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/RecordViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Talking Toga" normal armv7
-cGenerateDSYMFile "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app.dSYM" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Talking Toga"
-cCopyStringsFile "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/en.lproj/InfoPlist.strings" "Talking Toga/en.lproj/InfoPlist.strings"
-cCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Default@2x.png" "Talking Toga/Default@2x.png"
-cCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Default-568h@2x.png" "Talking Toga/Default-568h@2x.png"
-cCompileStoryboard "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/en.lproj/MainStoryboard.storyboard"
-cCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Default.png" "Talking Toga/Default.png"
-cCpResource "Talking Toga/kora.wav" "Build/Products/Debug-iphoneos/Talking Toga.app/kora.wav"
+cProcessInfoPlistFile "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Info.plist" "Talking Toga/Talking Toga-Info.plist"
+cProcessPCH "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-gqmamleukssqychifobzefobixdd/Talking Toga-Prefix.pch.pth" "Talking Toga/Talking Toga-Prefix.pch" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/RecordViewController.o" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/RecordViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/AppDelegate.o" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/AppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/MasterViewController.o" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/MasterViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/DetailViewController.o" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/DetailViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/VoiceListTableViewController.o" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/VoiceListTableViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/main.o" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Talking Toga" normal armv7
+cGenerateDSYMFile "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app.dSYM" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Talking Toga"
+cCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Default-568h@2x.png" "Talking Toga/Default-568h@2x.png"
+cCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Default@2x.png" "Talking Toga/Default@2x.png"
+cCompileStoryboard "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/en.lproj/MainStoryboard.storyboard"
 cCpResource "Talking Toga/hai.wav" "Build/Products/Debug-iphoneos/Talking Toga.app/hai.wav"
+cCpResource "Talking Toga/kora.wav" "Build/Products/Debug-iphoneos/Talking Toga.app/kora.wav"
+cCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Default.png" "Talking Toga/Default.png"
+cCopyStringsFile "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/en.lproj/InfoPlist.strings" "Talking Toga/en.lproj/InfoPlist.strings"
 cCpResource "Talking Toga/yabakunaisuka.wav" "Build/Products/Debug-iphoneos/Talking Toga.app/yabakunaisuka.wav"
 cCpResource "Talking Toga/nansuka.wav" "Build/Products/Debug-iphoneos/Talking Toga.app/nansuka.wav"
-cCpResource "Talking Toga/kora.jpg" "Build/Products/Debug-iphoneos/Talking Toga.app/kora.jpg"
 cCpResource "Talking Toga/hai.jpg" "Build/Products/Debug-iphoneos/Talking Toga.app/hai.jpg"
+cCpResource "Talking Toga/kora.jpg" "Build/Products/Debug-iphoneos/Talking Toga.app/kora.jpg"
+cCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_square.png" 213013藤賀雄太_square.png
+cCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/toga_iphone.png" toga_iphone.png
 cCpResource "Talking Toga/nansuka.jpg" "Build/Products/Debug-iphoneos/Talking Toga.app/nansuka.jpg"
-cCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/toga_iphone.png" toga_iphone.png
+cCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_iphone.png" 213013藤賀雄太_iphone.png
 cCpResource "Talking Toga/yabakunaisuka.jpg" "Build/Products/Debug-iphoneos/Talking Toga.app/yabakunaisuka.jpg"
-cCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_square.png" 213013藤賀雄太_square.png
-cCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_iphone.png" 213013藤賀雄太_iphone.png
-cCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/toga_iphone2.png" toga_iphone2.png
-cCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_iphone2.png" 213013藤賀雄太_iphone2.png
-cProcessProductPackaging "/Users/gentleman/Library/MobileDevice/Provisioning Profiles/6DC76783-6BDD-4D0A-8B5F-CD14ED5E6CEA.mobileprovision" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/embedded.mobileprovision"
-cProcessProductPackaging "/Users/gentleman/Library/MobileDevice/Provisioning Profiles/6DC76783-6BDD-4D0A-8B5F-CD14ED5E6CEA.mobileprovision" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/embedded.mobileprovision"
-cTouch "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app"
-cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga.xcent"
-cCodeSign "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app"
+cCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_iphone2.png" 213013藤賀雄太_iphone2.png
+cCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/toga_iphone2.png" toga_iphone2.png
+cProcessProductPackaging "/Users/gentleman/Library/MobileDevice/Provisioning Profiles/251F35A4-3616-418A-BE21-4D7FD3F35866.mobileprovision" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/embedded.mobileprovision"
+cProcessProductPackaging "/Users/gentleman/Library/MobileDevice/Provisioning Profiles/251F35A4-3616-418A-BE21-4D7FD3F35866.mobileprovision" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/embedded.mobileprovision"
+cTouch "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app"
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga.xcent"
+cCodeSign "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app"
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
 c0000000051BF42770000000000000110
@@ -67,6 +67,11 @@ c000000005106E7AE0000000000322700
 t1359407022
 s3286784
 
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000005106E7AE00000000001694D0
+t1359407022
+s1479888
+
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
 c000000005106E7AF000000000062AD10
 t1359407023
@@ -77,15 +82,10 @@ c000000005106E7AF00000000000015F7
 t1359407023
 s5623
 
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
-c000000005106E7B000000000005807F0
-t1359407024
-s5769200
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
-c000000005106E7B0000000000012C360
-t1359407024
-s1229664
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000005106E7B200000000003596B0
+t1359407026
+s3511984
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
 c000000005106E7B20000000000000E8D
@@ -102,678 +102,659 @@ c000000005106E7BE0000000000001B73
 t1359407038
 s7027
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/213013藤賀雄太_iphone.png
-c0000000052094D3500000000000079E1
-t1376341301
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/213013藤賀雄太_iphone.png
+c00000000520E371900000000000079E1
+t1376663321
 s31201
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/213013藤賀雄太_iphone2.png
-c0000000052094DE2000000000000816B
-t1376341474
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/213013藤賀雄太_iphone2.png
+c00000000520E3719000000000000816B
+t1376663321
 s33131
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/213013藤賀雄太_square.png
-c0000000052094B3D0000000000006FB3
-t1376340797
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/213013藤賀雄太_square.png
+c00000000520E37190000000000006FB3
+t1376663321
 s28595
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-comhhhousxkubybwyfoowopazwdg/Talking Toga-Prefix.pch.pth
-t1376341772
-s4607064
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-gqmamleukssqychifobzefobixdd/Talking Toga-Prefix.pch.pth
+t1376673036
+s4607060
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/AppDelegate.o
-t1376341773
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/AppDelegate.o
+t1376673036
 s85864
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/DetailViewController.o
-t1376507866
-s87604
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/DetailViewController.o
+t1376678979
+s87020
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/MasterViewController.o
-t1376507866
-s98012
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/MasterViewController.o
+t1376673037
+s98008
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/RecordViewController.o
-t1376341773
-s68756
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/RecordViewController.o
+t1376680600
+s107356
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/Talking Toga.LinkFileList
-c0000000052094F0A000000000000040F
-t1376341770
-s1039
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/Talking Toga.LinkFileList
+c00000000520E5D0C0000000000000409
+t1376673036
+s1033
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/VoiceListTableViewController.o
-t2
-s0
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/VoiceListTableViewController.o
+t1376676003
+s82732
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/main.o
-t1376341773
-s3456
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/main.o
+t1376673036
+s3452
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga.xcent
-t1376497499
-s398
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga.xcent
+t1376673491
+s422
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app
-t1376507651
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app
+t1376680600
 s850
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app.dSYM
-t1376507651
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app.dSYM
+t1376680600
 s102
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_iphone.png
-t1376341774
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_iphone.png
+t1376673485
 s41975
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_iphone2.png
-t1376341774
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_iphone2.png
+t1376673485
 s47395
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_square.png
-t1376341774
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_square.png
+t1376673485
 s35031
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Default-568h@2x.png
-t1376341774
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Default-568h@2x.png
+t1376673485
 s7014
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Default.png
-t1376341774
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Default.png
+t1376673485
 s3688
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Default@2x.png
-t1376341774
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Default@2x.png
+t1376673485
 s6316
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Info.plist
-t1376497498
-s1245
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Info.plist
+t1376673036
+s1259
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/PkgInfo
-t1376497498
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/PkgInfo
+t1376673036
 s8
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/ResourceRules.plist
-t1376341770
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/ResourceRules.plist
+t1376673036
 s485
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Talking Toga
-t1376507651
-s59984
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Talking Toga
+t1376680600
+s73216
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/embedded.mobileprovision
-t1376341774
-s7391
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/embedded.mobileprovision
+t1376673491
+s7394
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/en.lproj/InfoPlist.strings
-t1376341774
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/en.lproj/InfoPlist.strings
+t1376673484
 s42
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/en.lproj/MainStoryboard.storyboardc
-t1376341774
-s340
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/en.lproj/MainStoryboard.storyboardc
+t1376678764
+s408
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/hai.jpg
-t1376341774
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/hai.jpg
+t1376673485
 s23131
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/hai.wav
-t1376341774
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/hai.wav
+t1376673484
 s85808
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/kora.jpg
-t1376341774
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/kora.jpg
+t1376673485
 s15702
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/kora.wav
-t1376341774
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/kora.wav
+t1376673484
 s51180
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/nansuka.jpg
-t1376341774
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/nansuka.jpg
+t1376673485
 s19537
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/nansuka.wav
-t1376341774
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/nansuka.wav
+t1376673484
 s62860
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/toga_iphone.png
-t1376341774
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/toga_iphone.png
+t1376673485
 s21405
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/toga_iphone2.png
-t1376341774
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/toga_iphone2.png
+t1376673485
 s42742
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/yabakunaisuka.jpg
-t1376341774
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/yabakunaisuka.jpg
+t1376673485
 s17439
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/yabakunaisuka.wav
-t1376341774
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/yabakunaisuka.wav
+t1376673484
 s118404
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/AppDelegate.h
-c00000000520672E00000000000000117
-t1376154336
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/AppDelegate.h
+c00000000520E37190000000000000117
+t1376663321
 s279
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/AppDelegate.m
-c00000000520672E000000000000007D9
-t1376154336
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/AppDelegate.m
+c00000000520E371900000000000007D9
+t1376663321
 s2009
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/Default-568h@2x.png
-c0000000050262AB100000000000048A2
-t1344678577
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/Default-568h@2x.png
+c00000000520E371900000000000048A2
+t1376663321
 s18594
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/Default.png
-c0000000050262AB1000000000000198C
-t1344678577
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/Default.png
+c00000000520E3719000000000000198C
+t1376663321
 s6540
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/Default@2x.png
-c0000000050262AB10000000000003EEB
-t1344678577
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/Default@2x.png
+c00000000520E37190000000000003EEB
+t1376663321
 s16107
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/DetailViewController.h
-c00000000520BD7D80000000000000280
-t1376507864
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/DetailViewController.h
+c00000000520E37190000000000000280
+t1376663321
 s640
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/DetailViewController.m
-c00000000520BD5CA00000000000007CE
-t1376507338
-s1998
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/DetailViewController.m
+c00000000520E744200000000000006C8
+t1376678978
+s1736
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/MasterViewController.h
-c00000000520BC9240000000000000131
-t1376504100
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/MasterViewController.h
+c00000000520E37190000000000000131
+t1376663321
 s305
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/MasterViewController.m
-c00000000520BD7B10000000000001CC0
-t1376507825
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/MasterViewController.m
+c00000000520E37190000000000001CC0
+t1376663321
 s7360
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/RecordViewController.h
-c000000005207D1B20000000000000280
-t1376244146
-s640
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/RecordViewController.h
+c00000000520E6BF2000000000000053D
+t1376676850
+s1341
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/RecordViewController.m
-c000000005207D1B200000000000002D6
-t1376244146
-s726
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/RecordViewController.m
+c00000000520E7B0B0000000000002C75
+t1376680715
+s11381
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/Talking Toga-Prefix.pch
-c00000000520672E00000000000000147
-t1376154336
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/Talking Toga-Prefix.pch
+c00000000520E37190000000000000147
+t1376663321
 s327
 i<Availability.h>
 i<UIKit/UIKit.h>
 i<Foundation/Foundation.h>
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/VoiceListTableViewController.h
-c0000000052068D3C0000000000000126
-t1376161084
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/VoiceListTableViewController.h
+c00000000520E37190000000000000126
+t1376663321
 s294
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/VoiceListTableViewController.m
-c00000000520BD7EB0000000000001054
-t1376507883
-s4180
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/VoiceListTableViewController.m
+c00000000520E652700000000000010CF
+t1376675111
+s4303
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/en.lproj/InfoPlist.strings
-c00000000520672E0000000000000002D
-t1376154336
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/en.lproj/InfoPlist.strings
+c00000000520E3719000000000000002D
+t1376663321
 s45
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/en.lproj/MainStoryboard.storyboard
-c0000000052094EA90000000000003913
-t1376341673
-s14611
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/en.lproj/MainStoryboard.storyboard
+c00000000520E70DD0000000000004FB0
+t1376678109
+s20400
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/hai.jpg
-c000000005208EA970000000000005A5B
-t1376316055
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/hai.jpg
+c00000000520E37190000000000005A5B
+t1376663321
 s23131
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/hai.wav
-c000000005207D1B20000000000014F30
-t1376244146
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/hai.wav
+c00000000520E37190000000000014F30
+t1376663321
 s85808
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/kora.jpg
-c000000005208EEB40000000000003D56
-t1376317108
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/kora.jpg
+c00000000520E37190000000000003D56
+t1376663321
 s15702
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/kora.wav
-c000000005207D1B2000000000000C7EC
-t1376244146
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/kora.wav
+c00000000520E3719000000000000C7EC
+t1376663321
 s51180
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/main.m
-c00000000520672E00000000000000152
-t1376154336
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/main.m
+c00000000520E37190000000000000152
+t1376663321
 s338
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/nansuka.jpg
-c000000005208EF630000000000004C51
-t1376317283
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/nansuka.jpg
+c00000000520E37190000000000004C51
+t1376663321
 s19537
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/nansuka.wav
-c000000005207D1B2000000000000F58C
-t1376244146
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/nansuka.wav
+c00000000520E3719000000000000F58C
+t1376663321
 s62860
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/yabakunaisuka.jpg
-c000000005208EF37000000000000441F
-t1376317239
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/yabakunaisuka.jpg
+c00000000520E3719000000000000441F
+t1376663321
 s17439
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/yabakunaisuka.wav
-c000000005207D1B2000000000001CE84
-t1376244146
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/yabakunaisuka.wav
+c00000000520E3719000000000001CE84
+t1376663321
 s118404
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/toga_iphone.png
-c0000000052094A7A0000000000003810
-t1376340602
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/toga_iphone.png
+c00000000520E37190000000000003810
+t1376663321
 s14352
 
-N/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/toga_iphone2.png
-c0000000052094E6D0000000000007B1E
-t1376341613
+N/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/toga_iphone2.png
+c00000000520E37190000000000007B1E
+t1376663321
 s31518
 
-N/Users/gentleman/Library/MobileDevice/Provisioning Profiles/6DC76783-6BDD-4D0A-8B5F-CD14ED5E6CEA.mobileprovision
-c00000000520942B30000000000001CDF
-t1376338611
-s7391
+N/Users/gentleman/Library/MobileDevice/Provisioning Profiles/251F35A4-3616-418A-BE21-4D7FD3F35866.mobileprovision
+c00000000520E2C810000000000001CE2
+t1376660609
+s7394
 
 NTalking Toga/Talking Toga-Info.plist
-c00000000520BAE630000000000000617
-t1376497251
-s1559
+c00000000520E41340000000000000623
+t1376665908
+s1571
 
-CBuild AST from "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/AppDelegate.m"
+CBuild AST from "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/AppDelegate.m"
 r0
 
-CBuild AST from "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/DetailViewController.m"
+CBuild AST from "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/DetailViewController.m"
 r0
 
-CBuild AST from "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/MasterViewController.m"
+CBuild AST from "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/MasterViewController.m"
 r0
 
-CBuild AST from "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/RecordViewController.m"
+CBuild AST from "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/RecordViewController.m"
 r0
 
-CBuild AST from "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/VoiceListTableViewController.m"
+CBuild AST from "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/VoiceListTableViewController.m"
 r0
 
-CBuild AST from "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/main.m"
+CBuild AST from "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/main.m"
 r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies40be3c6c0fbcb741^dd063d6c0fbcb741^---0#1#0#--18"Check dependencies36"8FAD97E2-73E6-40F6-A448-14367DB29ECF-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb03cc090b2beb741^eeb1c090b2beb741^---0#1#0#--18"Check dependencies36"53A3EBB0-F48A-4519-BB01-24421BDF2485-
 
-CCodeSign "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app"
-s398200684.490742
-e398200684.733522
+CCodeSign "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app"
+s398373521.125320
+e398373521.366472
 r1
 xCodeSign
-x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"CodeSign "Build/Products/Debug-iphoneos/Talking Toga.app"81b27d6c0fbcb741^b4c7bb6c0fbcb741^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Build/Products/Debug-iphoneos/Talking%20Toga.app/0000000000000000^949"CodeSign "Build/Products/Debug-iphoneos/Talking Toga.app"    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign cc62e6968f44bd759d4a963c6da1c3cc358dcabc "--resource-rules=/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/ResourceRules.plist" --entitlements "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga.xcent" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app"36"F48B3794-1B7A-43A2-A754-07BA37112ACC-
+x/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"CodeSign "Build/Products/Debug-iphoneos/Talking Toga.app"89262091b2beb741^63d05d91b2beb741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking%20Toga.app/0000000000000000^943"CodeSign "Build/Products/Debug-iphoneos/Talking Toga.app"    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 358373d18ab3d6d4483fa7f878e54045aa558739 "--resource-rules=/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/ResourceRules.plist" --entitlements "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga.xcent" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app"36"B901EC50-7D67-47B9-A4D6-509BD3A7616C-
 
-CCompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/AppDelegate.o" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/AppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s398034572.915047
-e398034573.297015
+CCompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/AppDelegate.o" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/AppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s398365836.898644
+e398365836.989335
 r1
 xCompileC
 xBuild/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/AppDelegate.o
-x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/AppDelegate.m
+x/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/AppDelegate.m
 xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/AppDelegate.md15dea8c86b9b741^d9084c8d86b9b741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/AppDelegate.m0000000000000000^3854"CompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/AppDelegate.o" "Talking Toga/AppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-generated-files.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-own-target-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-all-target-headers.hmap" -iquote "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-project-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/DerivedSources/armv7" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/DerivedSources" "-F/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos" -include "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-comhhhousxkubybwyfoowopazwdg/Talking Toga-Prefix.pch" -MMD -MT dependencies -MF "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/AppDelegate.d" --serialize-diagnostics "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/AppDelegate.dia" -c "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/AppDelegate.m" -o "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/AppDelegate.o"36"9590DE68-0A84-48AE-84F5-DB4AEE351869-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/AppDelegate.m0d35e68c94beb741^5644fd8c94beb741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking%20Toga/AppDelegate.m0000000000000000^3834"CompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/AppDelegate.o" "Talking Toga/AppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-generated-files.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-own-target-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-all-target-headers.hmap" -iquote "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-project-headers.hmap" -I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/DerivedSources/armv7" "-I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/DerivedSources" -F/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos -include "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-gqmamleukssqychifobzefobixdd/Talking Toga-Prefix.pch" -MMD -MT dependencies -MF "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/AppDelegate.d" --serialize-diagnostics "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/AppDelegate.dia" -c "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/AppDelegate.m" -o "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/AppDelegate.o"36"06807BE0-B64F-4848-B533-BB4AFD050666-
 
-CCompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/DetailViewController.o" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/DetailViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s398200666.238972
-e398200666.447894
+CCompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/DetailViewController.o" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/DetailViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s398371779.282001
+e398371779.413486
 r1
 xCompileC
 xBuild/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/DetailViewController.o
-x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/DetailViewController.m
+x/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/DetailViewController.m
 xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/DetailViewController.m:33:11: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
-o    NSLog([self.detailItem description]);
-o          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-o/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/DetailViewController.m:48:5: warning: expression result unused [-Wunused-value]
+o/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/DetailViewController.m:45:5: warning: expression result unused [-Wunused-value]
 o    [self.talkImageView initWithImage:image];
 o    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-o/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/DetailViewController.m:69:20: warning: unused variable 'audio' [-Wunused-variable]
-o    AVAudioPlayer *audio = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
-o                   ^
-o3 warnings generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/DetailViewController.mdb503d5a0fbcb741^7138735a0fbcb741^-803"/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/DetailViewController.m:33:11: warning: format string is not a string literal (potentially insecure) [-Wformat-security]    NSLog([self.detailItem description]);          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/DetailViewController.m:48:5: warning: expression result unused [-Wunused-value]    [self.talkImageView initWithImage:image];    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/DetailViewController.m:69:20: warning: unused variable 'audio' [-Wunused-variable]    AVAudioPlayer *audio = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];                   ^3 warnings generated.-0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/DetailViewController.m0000000000000000^3908"CompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/DetailViewController.o" "Talking Toga/DetailViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-generated-files.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-own-target-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-all-target-headers.hmap" -iquote "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-project-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/DerivedSources/armv7" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/DerivedSources" "-F/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos" -include "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-comhhhousxkubybwyfoowopazwdg/Talking Toga-Prefix.pch" -MMD -MT dependencies -MF "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/DetailViewController.d" --serialize-diagnostics "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/DetailViewController.dia" -c "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/DetailViewController.m" -o "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/DetailViewController.o"36"15A4A65C-83DA-49C7-9F40-AEE963537A32-
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/DetailViewController.m695448c3abbeb741^8bfd69c3abbeb741^-263"/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/DetailViewController.m:45:5: warning: expression result unused [-Wunused-value]    [self.talkImageView initWithImage:image];    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@24"Expression result unused-398371779#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@111"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking%20Toga/DetailViewController.m0000000000000000^44#4#44#4#1021#0#19"Unused Entity Issue1(3@111"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking%20Toga/DetailViewController.m0000000000000000^44#4#44#44#1021#39#-0#0#0#-19%DVTDocumentLocation4@111"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking%20Toga/DetailViewController.m0000000000000000^3888"CompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/DetailViewController.o" "Talking Toga/DetailViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-generated-files.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-own-target-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-all-target-headers.hmap" -iquote "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-project-headers.hmap" -I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/DerivedSources/armv7" "-I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/DerivedSources" -F/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos -include "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-gqmamleukssqychifobzefobixdd/Talking Toga-Prefix.pch" -MMD -MT dependencies -MF "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/DetailViewController.d" --serialize-diagnostics "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/DetailViewController.dia" -c "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/DetailViewController.m" -o "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/DetailViewController.o"36"B34CB166-B86A-4429-A3FD-C1421BC1AE83-
 
-CCompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/MasterViewController.o" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/MasterViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s398200666.238904
-e398200666.339550
+CCompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/MasterViewController.o" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/MasterViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s398365836.898614
+e398365837.068221
 r1
 xCompileC
 xBuild/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/MasterViewController.o
-x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/MasterViewController.m
+x/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/MasterViewController.m
 xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/MasterViewController.m0e4d3d5a0fbcb741^9e0b575a0fbcb741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/MasterViewController.m0000000000000000^3908"CompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/MasterViewController.o" "Talking Toga/MasterViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-generated-files.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-own-target-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-all-target-headers.hmap" -iquote "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-project-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/DerivedSources/armv7" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/DerivedSources" "-F/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos" -include "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-comhhhousxkubybwyfoowopazwdg/Talking Toga-Prefix.pch" -MMD -MT dependencies -MF "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/MasterViewController.d" --serialize-diagnostics "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/MasterViewController.dia" -c "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/MasterViewController.m" -o "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/MasterViewController.o"36"2A8BE307-8186-4D08-B51A-9BD0CB5DBBD4-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/MasterViewController.me735e68c94beb741^9f75118d94beb741^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking%20Toga/MasterViewController.m0000000000000000^3888"CompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/MasterViewController.o" "Talking Toga/MasterViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-generated-files.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-own-target-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-all-target-headers.hmap" -iquote "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-project-headers.hmap" -I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/DerivedSources/armv7" "-I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/DerivedSources" -F/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos -include "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-gqmamleukssqychifobzefobixdd/Talking Toga-Prefix.pch" -MMD -MT dependencies -MF "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/MasterViewController.d" --serialize-diagnostics "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/MasterViewController.dia" -c "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/MasterViewController.m" -o "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/MasterViewController.o"36"1C876BAF-486B-448F-8D58-B580B7B52B44-
 
-CCompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/RecordViewController.o" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/RecordViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s398034572.915088
-e398034573.350200
+CCompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/RecordViewController.o" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/RecordViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s398373520.842521
+e398373520.980047
 r1
 xCompileC
 xBuild/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/RecordViewController.o
-x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/RecordViewController.m
+x/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/RecordViewController.m
 xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/RecordViewController.m:15:17: warning: incomplete implementation [-Wincomplete-implementation]
-o@implementation RecordViewController
-o                ^
-o/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/RecordViewController.h:15:1: note: method definition for 'recordAndPlay:' not found
-o-(IBAction)recordAndPlay:(id)sender;
-o^
-o/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/RecordViewController.h:16:1: note: method definition for 'startCameraControllerFromViewController:usingDelegate:' not found
-o-(BOOL)startCameraControllerFromViewController:(UIViewController*)controller
-o^
-o/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/RecordViewController.h:18:1: note: method definition for 'video:didFinishSavingWithError:contextInfo:' not found
-o-(void)video:(NSString *)videoPath didFinishSavingWithError:(NSError *)error contextInfo:(void*)contextInfo;
-o^
-o1 warning generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/RecordViewController.m2769ea8c86b9b741^83a6598d86b9b741^-1009"/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/RecordViewController.m:15:17: warning: incomplete implementation [-Wincomplete-implementation]@implementation RecordViewController                ^/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/RecordViewController.h:15:1: note: method definition for 'recordAndPlay:' not found-(IBAction)recordAndPlay:(id)sender;^/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/RecordViewController.h:16:1: note: method definition for 'startCameraControllerFromViewController:usingDelegate:' not found-(BOOL)startCameraControllerFromViewController:(UIViewController*)controller^/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/RecordViewController.h:18:1: note: method definition for 'video:didFinishSavingWithError:contextInfo:' not found-(void)video:(NSString *)videoPath didFinishSavingWithError:(NSError *)error contextInfo:(void*)contextInfo;^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@25"Incomplete implementation-398034573#18446744073709551615#0#3(2@48"Method definition for 'recordAndPlay:' not found-398034573#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@114"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/RecordViewController.h0000000000000000^14#0#14#0#349#0#14"Semantic Issue--2@88"Method definition for 'startCameraControllerFromViewController:usingDelegate:' not found-398034573#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@114"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/RecordViewController.h0000000000000000^15#0#15#0#386#0#14"Semantic Issue--2@77"Method definition for 'video:didFinishSavingWithError:contextInfo:' not found-398034573#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@114"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/RecordViewController.h0000000000000000^17#0#17#0#525#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@114"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/RecordViewController.m0000000000000000^14#16#14#16#239#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@114"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/RecordViewController.m0000000000000000^3908"CompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/RecordViewController.o" "Talking Toga/RecordViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-generated-files.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-own-target-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-all-target-headers.hmap" -iquote "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-project-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/DerivedSources/armv7" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/DerivedSources" "-F/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos" -include "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-comhhhousxkubybwyfoowopazwdg/Talking Toga-Prefix.pch" -MMD -MT dependencies -MF "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/RecordViewController.d" --serialize-diagnostics "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/RecordViewController.dia" -c "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/RecordViewController.m" -o "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/RecordViewController.o"36"A6A644A3-A74B-4CBF-9763-E564FAC08569-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/RecordViewController.m92cfd790b2beb741^7007fe90b2beb741^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking%20Toga/RecordViewController.m0000000000000000^3888"CompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/RecordViewController.o" "Talking Toga/RecordViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-generated-files.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-own-target-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-all-target-headers.hmap" -iquote "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-project-headers.hmap" -I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/DerivedSources/armv7" "-I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/DerivedSources" -F/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos -include "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-gqmamleukssqychifobzefobixdd/Talking Toga-Prefix.pch" -MMD -MT dependencies -MF "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/RecordViewController.d" --serialize-diagnostics "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/RecordViewController.dia" -c "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/RecordViewController.m" -o "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/RecordViewController.o"36"688EE290-B022-457A-BCC9-5E5626BC02DA-
 
-CCompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/VoiceListTableViewController.o" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/VoiceListTableViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s398200684.267640
-e398200684.368628
+CCompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/VoiceListTableViewController.o" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/VoiceListTableViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s398368802.645659
+e398368803.573288
 r1
 xCompileC
 xBuild/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/VoiceListTableViewController.o
-x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/VoiceListTableViewController.m
+x/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/VoiceListTableViewController.m
 xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/VoiceListTableViewController.m:125:11: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+o/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/VoiceListTableViewController.m:125:11: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
 o    NSLog([[NSString stringWithFormat:@"%d", [self.tableView indexPathForSelectedRow].row] stringByAppendingFormat:@"番目が押されたよ"]);
 o          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 o1 warning generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/VoiceListTableViewController.mc3a0446c0fbcb741^cc5e5e6c0fbcb741^-504"/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/VoiceListTableViewController.m:125:11: warning: format string is not a string literal (potentially insecure) [-Wformat-security]    NSLog([[NSString stringWithFormat:@"%d", [self.tableView indexPathForSelectedRow].row] stringByAppendingFormat:@"番目が押されたよ"]);          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@60"Format string is not a string literal (potentially insecure)-398200684#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@122"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/VoiceListTableViewController.m0000000000000000^124#10#124#10#3755#0#19"Format String Issue1(3@122"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/VoiceListTableViewController.m0000000000000000^124#10#124#143#3755#132#-0#0#0#-19%DVTDocumentLocation4@122"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/VoiceListTableViewController.m0000000000000000^3956"CompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/VoiceListTableViewController.o" "Talking Toga/VoiceListTableViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-generated-files.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-own-target-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-all-target-headers.hmap" -iquote "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-project-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/DerivedSources/armv7" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/DerivedSources" "-F/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos" -include "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-comhhhousxkubybwyfoowopazwdg/Talking Toga-Prefix.pch" -MMD -MT dependencies -MF "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/VoiceListTableViewController.d" --serialize-diagnostics "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/VoiceListTableViewController.dia" -c "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/VoiceListTableViewController.m" -o "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/VoiceListTableViewController.o"36"8D4422DF-56A6-4E2A-BEB1-427ACA1E61D9-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/VoiceListTableViewController.m7b6aa522a0beb741^c32a9e23a0beb741^-503"/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/VoiceListTableViewController.m:125:11: warning: format string is not a string literal (potentially insecure) [-Wformat-security]    NSLog([[NSString stringWithFormat:@"%d", [self.tableView indexPathForSelectedRow].row] stringByAppendingFormat:@"番目が押されたよ"]);          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@60"Format string is not a string literal (potentially insecure)-398368803#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@119"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking%20Toga/VoiceListTableViewController.m0000000000000000^124#10#124#10#3755#0#19"Format String Issue1(3@119"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking%20Toga/VoiceListTableViewController.m0000000000000000^124#10#124#143#3755#132#-0#0#0#-19%DVTDocumentLocation4@119"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking%20Toga/VoiceListTableViewController.m0000000000000000^3936"CompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/VoiceListTableViewController.o" "Talking Toga/VoiceListTableViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-generated-files.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-own-target-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-all-target-headers.hmap" -iquote "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-project-headers.hmap" -I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/DerivedSources/armv7" "-I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/DerivedSources" -F/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos -include "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-gqmamleukssqychifobzefobixdd/Talking Toga-Prefix.pch" -MMD -MT dependencies -MF "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/VoiceListTableViewController.d" --serialize-diagnostics "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/VoiceListTableViewController.dia" -c "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/VoiceListTableViewController.m" -o "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/VoiceListTableViewController.o"36"0D07E963-FA4A-40EB-B9C6-FFF11714A54E-
 
-CCompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/main.o" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s398034572.915049
-e398034573.294023
+CCompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/main.o" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s398365836.898615
+e398365836.969827
 r1
 xCompileC
 xBuild/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/main.o
-x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/main.m
+x/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/main.m
 xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/main.m0f5fea8c86b9b741^aa464b8d86b9b741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/main.m0000000000000000^3812"CompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/main.o" "Talking Toga/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-generated-files.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-own-target-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-all-target-headers.hmap" -iquote "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-project-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/DerivedSources/armv7" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/DerivedSources" "-F/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos" -include "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-comhhhousxkubybwyfoowopazwdg/Talking Toga-Prefix.pch" -MMD -MT dependencies -MF "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/main.d" --serialize-diagnostics "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/main.dia" -c "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/main.m" -o "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/main.o"36"406FF348-DFF1-4EC8-BCC9-1FC950E73039-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/main.mf033e68c94beb741^9e44f88c94beb741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking%20Toga/main.m0000000000000000^3792"CompileC "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/main.o" "Talking Toga/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-generated-files.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-own-target-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-all-target-headers.hmap" -iquote "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-project-headers.hmap" -I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/DerivedSources/armv7" "-I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/DerivedSources" -F/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos -include "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-gqmamleukssqychifobzefobixdd/Talking Toga-Prefix.pch" -MMD -MT dependencies -MF "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/main.d" --serialize-diagnostics "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/main.dia" -c "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/main.m" -o "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/main.o"36"B5185106-38D6-4684-9056-0E962E4FD2AB-
 
-CCompileStoryboard "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/en.lproj/MainStoryboard.storyboard"
-s398034574.691434
-e398034574.885165
+CCompileStoryboard "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/en.lproj/MainStoryboard.storyboard"
+s398371553.215712
+e398371564.131510
 r1
 xCompileStoryboard
-x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/en.lproj/MainStoryboard.storyboard
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"CompileStoryboard "Talking Toga/en.lproj/MainStoryboard.storyboard"9c19b18e86b9b741^9599e28e86b9b741^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/en.lproj/MainStoryboard.storyboard0000000000000000^963"CompileStoryboard "Talking Toga/en.lproj/MainStoryboard.storyboard"    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/en.lproj/MainStoryboard.storyboardc" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/en.lproj/MainStoryboard.storyboard" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk36"46C74F66-BAF5-4020-B324-F8059C09CB83-
+x/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/en.lproj/MainStoryboard.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"CompileStoryboard "Talking Toga/en.lproj/MainStoryboard.storyboard"6a4d37e1aabeb741^93aa21ecaabeb741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking%20Toga/en.lproj/MainStoryboard.storyboard0000000000000000^958"CompileStoryboard "Talking Toga/en.lproj/MainStoryboard.storyboard"    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/en.lproj/MainStoryboard.storyboardc" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/en.lproj/MainStoryboard.storyboard" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk36"03D84F5F-79CC-4647-B286-2AE1D08B46F8-
 
-CCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_iphone.png" 213013藤賀雄太_iphone.png
-s398034574.748954
-e398034574.832726
+CCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_iphone.png" 213013藤賀雄太_iphone.png
+s398366285.069546
+e398366285.401660
 r1
 xCopyPNGFile
-x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_iphone.png
+x/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_iphone.png
 x213013藤賀雄太_iphone.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_iphone.png" 213013藤賀雄太_iphone.png03d1bf8e86b9b741^452dd58e86b9b741^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/213013%E8%97%A4%E8%B3%80%E9%9B%84%E5%A4%AA_iphone.png0000000000000000^720"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_iphone.png" 213013藤賀雄太_iphone.png    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/213013藤賀雄太_iphone.png" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_iphone.png"36"7DA11A10-93C1-4E6F-B5F5-E69C0EA3AE3F-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_iphone.png" 213013藤賀雄太_iphone.pngcc09124d96beb741^78d2664d96beb741^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/213013%E8%97%A4%E8%B3%80%E9%9B%84%E5%A4%AA_iphone.png0000000000000000^713"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_iphone.png" 213013藤賀雄太_iphone.png    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/gentleman/Developer/Objective-C/myApps/talkingtoga/213013藤賀雄太_iphone.png "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_iphone.png"36"21D3FA67-0DAF-4AF3-B2CF-0913DACE8402-
 
-CCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_iphone2.png" 213013藤賀雄太_iphone2.png
-s398034574.748965
-e398034574.807187
+CCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_iphone2.png" 213013藤賀雄太_iphone2.png
+s398366285.084734
+e398366285.402146
 r1
 xCopyPNGFile
-x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_iphone2.png
+x/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_iphone2.png
 x213013藤賀雄太_iphone2.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_iphone2.png" 213013藤賀雄太_iphone2.png9ad1bf8e86b9b741^6aa3ce8e86b9b741^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/213013%E8%97%A4%E8%B3%80%E9%9B%84%E5%A4%AA_iphone2.png0000000000000000^724"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_iphone2.png" 213013藤賀雄太_iphone2.png    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/213013藤賀雄太_iphone2.png" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_iphone2.png"36"1BD25A16-2308-41D7-91D0-F8A44CF7ABA1-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_iphone2.png" 213013藤賀雄太_iphone2.png59de154d96beb741^c7f2664d96beb741^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/213013%E8%97%A4%E8%B3%80%E9%9B%84%E5%A4%AA_iphone2.png0000000000000000^717"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_iphone2.png" 213013藤賀雄太_iphone2.png    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/gentleman/Developer/Objective-C/myApps/talkingtoga/213013藤賀雄太_iphone2.png "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_iphone2.png"36"24BEE795-0519-444F-93F0-DB7614E17307-
 
-CCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_square.png" 213013藤賀雄太_square.png
-s398034574.748949
-e398034574.824182
+CCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_square.png" 213013藤賀雄太_square.png
+s398366285.069539
+e398366285.401147
 r1
 xCopyPNGFile
-x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_square.png
+x/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_square.png
 x213013藤賀雄太_square.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_square.png" 213013藤賀雄太_square.png24d1bf8e86b9b741^87fdd28e86b9b741^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/213013%E8%97%A4%E8%B3%80%E9%9B%84%E5%A4%AA_square.png0000000000000000^720"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_square.png" 213013藤賀雄太_square.png    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/213013藤賀雄太_square.png" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_square.png"36"F89B80AE-5D8D-424A-B879-A6D76A4C176C-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_square.png" 213013藤賀雄太_square.png0b0b124d96beb741^e6b1664d96beb741^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/213013%E8%97%A4%E8%B3%80%E9%9B%84%E5%A4%AA_square.png0000000000000000^713"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_square.png" 213013藤賀雄太_square.png    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/gentleman/Developer/Objective-C/myApps/talkingtoga/213013藤賀雄太_square.png "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/213013藤賀雄太_square.png"36"E89CC4EF-DCDB-4351-924A-E4F130BFF96D-
 
-CCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Default-568h@2x.png" "Talking Toga/Default-568h@2x.png"
-s398034574.691418
-e398034574.806836
+CCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Default-568h@2x.png" "Talking Toga/Default-568h@2x.png"
+s398366284.886025
+e398366285.401193
 r1
 xCopyPNGFile
-x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Default-568h@2x.png
+x/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Default-568h@2x.png
 xTalking Toga/Default-568h@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/Default-568h@2x.png" "Talking Toga/Default-568h@2x.png"7217b18e86b9b741^ac8cce8e86b9b741^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/Default-568h@2x.png0000000000000000^708"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/Default-568h@2x.png" "Talking Toga/Default-568h@2x.png"    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/Default-568h@2x.png" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Default-568h@2x.png"36"0A9808A7-5964-4B50-BC61-FBC87B6EB306-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/Default-568h@2x.png" "Talking Toga/Default-568h@2x.png"24ede24c96beb741^bbb7664d96beb741^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking%20Toga/Default-568h@2x.png0000000000000000^703"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/Default-568h@2x.png" "Talking Toga/Default-568h@2x.png"    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/Default-568h@2x.png" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Default-568h@2x.png"36"F63215E8-0C72-4A0D-A1F7-8162B4B922A2-
 
-CCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Default.png" "Talking Toga/Default.png"
-s398034574.691401
-e398034574.733331
+CCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Default.png" "Talking Toga/Default.png"
+s398366284.886019
+e398366285.388970
 r1
 xCopyPNGFile
-x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Default.png
+x/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Default.png
 xTalking Toga/Default.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/Default.png" "Talking Toga/Default.png"4c18b18e86b9b741^62bbbb8e86b9b741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/Default.png0000000000000000^676"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/Default.png" "Talking Toga/Default.png"    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/Default.png" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Default.png"36"4ADAA87F-97F3-4049-94AE-4815970645D4-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/Default.png" "Talking Toga/Default.png"9eece24c96beb741^5c92634d96beb741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking%20Toga/Default.png0000000000000000^671"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/Default.png" "Talking Toga/Default.png"    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/Default.png" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Default.png"36"A809468E-B178-48A1-9B64-9FD66150C47A-
 
-CCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Default@2x.png" "Talking Toga/Default@2x.png"
-s398034574.691387
-e398034574.772402
+CCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Default@2x.png" "Talking Toga/Default@2x.png"
+s398366284.885987
+e398366285.400535
 r1
 xCopyPNGFile
-x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Default@2x.png
+x/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Default@2x.png
 xTalking Toga/Default@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/Default@2x.png" "Talking Toga/Default@2x.png"2f17b18e86b9b741^e4bac58e86b9b741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/Default@2x.png0000000000000000^688"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/Default@2x.png" "Talking Toga/Default@2x.png"    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/Default@2x.png" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Default@2x.png"36"4AD36303-5FD9-4C29-AD98-8AB3AE27A024-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/Default@2x.png" "Talking Toga/Default@2x.png"b3ebe24c96beb741^ad88664d96beb741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking%20Toga/Default@2x.png0000000000000000^683"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/Default@2x.png" "Talking Toga/Default@2x.png"    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/Default@2x.png" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Default@2x.png"36"ABA34954-F2EC-4E55-B05F-B50685FF10BF-
 
-CCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/toga_iphone.png" toga_iphone.png
-s398034574.738507
-e398034574.807683
+CCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/toga_iphone.png" toga_iphone.png
+s398366285.022735
+e398366285.400821
 r1
 xCopyPNGFile
-x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/toga_iphone.png
+x/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/toga_iphone.png
 xtoga_iphone.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/toga_iphone.png" toga_iphone.png821fbd8e86b9b741^dbc3ce8e86b9b741^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/toga_iphone.png0000000000000000^664"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/toga_iphone.png" toga_iphone.png    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/toga_iphone.png" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/toga_iphone.png"36"945423D9-4476-4B42-BEEB-FC0D98AAE02C-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/toga_iphone.png" toga_iphone.pngc9e7054d96beb741^bf9b664d96beb741^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/toga_iphone.png0000000000000000^657"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/toga_iphone.png" toga_iphone.png    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/gentleman/Developer/Objective-C/myApps/talkingtoga/toga_iphone.png "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/toga_iphone.png"36"4B21C2DB-7C24-44EE-B8AB-857FEF012046-
 
-CCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/toga_iphone2.png" toga_iphone2.png
-s398034574.748961
-e398034574.807461
+CCopyPNGFile "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/toga_iphone2.png" toga_iphone2.png
+s398366285.390301
+e398366285.426437
 r1
 xCopyPNGFile
-x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/toga_iphone2.png
+x/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/toga_iphone2.png
 xtoga_iphone2.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/toga_iphone2.png" toga_iphone2.pngfed1bf8e86b9b741^2db5ce8e86b9b741^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/toga_iphone2.png0000000000000000^668"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/toga_iphone2.png" toga_iphone2.png    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/toga_iphone2.png" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/toga_iphone2.png"36"F1DF00B4-88F2-45F6-9387-C8DDABD0E740-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/toga_iphone2.png" toga_iphone2.png5dfa634d96beb741^412a6d4d96beb741^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/toga_iphone2.png0000000000000000^661"CopyPNGFile "Build/Products/Debug-iphoneos/Talking Toga.app/toga_iphone2.png" toga_iphone2.png    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/gentleman/Developer/Objective-C/myApps/talkingtoga/toga_iphone2.png "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/toga_iphone2.png"36"17C00885-65DD-47DA-ACB7-9A5420FEB11F-
 
-CCopyStringsFile "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/en.lproj/InfoPlist.strings" "Talking Toga/en.lproj/InfoPlist.strings"
-s398034574.691410
-e398034574.732976
+CCopyStringsFile "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/en.lproj/InfoPlist.strings" "Talking Toga/en.lproj/InfoPlist.strings"
+s398366284.885993
+e398366284.987613
 r1
 xCopyStringsFile
-x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/en.lproj/InfoPlist.strings
+x/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/en.lproj/InfoPlist.strings
 xTalking Toga/en.lproj/InfoPlist.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy Talking Toga/en.lproj/InfoPlist.strings7616b18e86b9b741^9ca6bb8e86b9b741^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/en.lproj/InfoPlist.strings0000000000000000^642"CopyStringsFile "Build/Products/Debug-iphoneos/Talking Toga.app/en.lproj/InfoPlist.strings" "Talking Toga/en.lproj/InfoPlist.strings"    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/en.lproj" -- "Talking Toga/en.lproj/InfoPlist.strings"36"1239C61B-C4E5-4C0E-A306-991D4007D0E8-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy Talking Toga/en.lproj/InfoPlist.strings96eae24c96beb741^f0dbfc4c96beb741^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking%20Toga/en.lproj/InfoPlist.strings0000000000000000^638"CopyStringsFile "Build/Products/Debug-iphoneos/Talking Toga.app/en.lproj/InfoPlist.strings" "Talking Toga/en.lproj/InfoPlist.strings"    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/en.lproj" -- "Talking Toga/en.lproj/InfoPlist.strings"36"001A83FE-8A3B-4A6B-9264-B46A8233BD54-
 
 CCpResource "Talking Toga/hai.jpg" "Build/Products/Debug-iphoneos/Talking Toga.app/hai.jpg"
-s398034574.733555
-e398034574.747722
+s398366284.989460
+e398366285.066311
 r1
 xCpResource
 xTalking Toga/hai.jpg
 xBuild/Products/Debug-iphoneos/Talking Toga.app/hai.jpg
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy Build/Products/Debug-iphoneos/Talking Toga.app/hai.jpg5ddfbb8e86b9b741^0e6abf8e86b9b741^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Build/Products/Debug-iphoneos/Talking%20Toga.app/hai.jpg000000000080d041^649"CpResource "Talking Toga/hai.jpg" "Build/Products/Debug-iphoneos/Talking Toga.app/hai.jpg"    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/hai.jpg" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app"36"C048D59A-E555-48C9-95AA-B9734B4195F6-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy Build/Products/Debug-iphoneos/Talking Toga.app/hai.jpg7863fd4c96beb741^2bf9104d96beb741^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking%20Toga.app/hai.jpg000000000080d041^644"CpResource "Talking Toga/hai.jpg" "Build/Products/Debug-iphoneos/Talking Toga.app/hai.jpg"    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/hai.jpg" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app"36"CC0071A9-D631-438A-8E2D-CADE17885253-
 
 CCpResource "Talking Toga/hai.wav" "Build/Products/Debug-iphoneos/Talking Toga.app/hai.wav"
-s398034574.691443
-e398034574.732956
+s398366284.886031
+e398366284.987623
 r1
 xCpResource
 xTalking Toga/hai.wav
 xBuild/Products/Debug-iphoneos/Talking Toga.app/hai.wav
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy Build/Products/Debug-iphoneos/Talking Toga.app/hai.wav3316b18e86b9b741^eca3bb8e86b9b741^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Build/Products/Debug-iphoneos/Talking%20Toga.app/hai.wav000000000080d041^649"CpResource "Talking Toga/hai.wav" "Build/Products/Debug-iphoneos/Talking Toga.app/hai.wav"    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/hai.wav" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app"36"8D7FD750-4F40-49FE-A89D-8A9443C9DBF4-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy Build/Products/Debug-iphoneos/Talking Toga.app/hai.wavabede24c96beb741^b5e1fc4c96beb741^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking%20Toga.app/hai.wav000000000080d041^644"CpResource "Talking Toga/hai.wav" "Build/Products/Debug-iphoneos/Talking Toga.app/hai.wav"    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/hai.wav" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app"36"EF613642-4D8F-441E-88E8-026354002011-
 
 CCpResource "Talking Toga/kora.jpg" "Build/Products/Debug-iphoneos/Talking Toga.app/kora.jpg"
-s398034574.733580
-e398034574.748140
+s398366284.989501
+e398366285.067929
 r1
 xCpResource
 xTalking Toga/kora.jpg
 xBuild/Products/Debug-iphoneos/Talking Toga.app/kora.jpg
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy Build/Products/Debug-iphoneos/Talking Toga.app/kora.jpg71e2bb8e86b9b741^0d89bf8e86b9b741^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Build/Products/Debug-iphoneos/Talking%20Toga.app/kora.jpg000000000080d041^652"CpResource "Talking Toga/kora.jpg" "Build/Products/Debug-iphoneos/Talking Toga.app/kora.jpg"    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/kora.jpg" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app"36"1356F2A8-31A8-4ADD-8512-C5216CEB6AF7-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy Build/Products/Debug-iphoneos/Talking Toga.app/kora.jpgae62fd4c96beb741^c26d114d96beb741^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking%20Toga.app/kora.jpg000000000080d041^647"CpResource "Talking Toga/kora.jpg" "Build/Products/Debug-iphoneos/Talking Toga.app/kora.jpg"    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/kora.jpg" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app"36"43BF5C8C-0C37-465A-AC99-7FD2556D4D7C-
 
 CCpResource "Talking Toga/kora.wav" "Build/Products/Debug-iphoneos/Talking Toga.app/kora.wav"
-s398034574.691452
-e398034574.732744
+s398366284.886045
+e398366284.934415
 r1
 xCpResource
 xTalking Toga/kora.wav
 xBuild/Products/Debug-iphoneos/Talking Toga.app/kora.wav
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy Build/Products/Debug-iphoneos/Talking Toga.app/kora.wav9c19b18e86b9b741^a794bb8e86b9b741^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Build/Products/Debug-iphoneos/Talking%20Toga.app/kora.wav000000000080d041^652"CpResource "Talking Toga/kora.wav" "Build/Products/Debug-iphoneos/Talking Toga.app/kora.wav"    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/kora.wav" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app"36"199BC5AB-1CE9-4662-8CE9-C8C080D30E02-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy Build/Products/Debug-iphoneos/Talking Toga.app/kora.wavffe9e24c96beb741^4c35ef4c96beb741^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking%20Toga.app/kora.wav000000000080d041^647"CpResource "Talking Toga/kora.wav" "Build/Products/Debug-iphoneos/Talking Toga.app/kora.wav"    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/kora.wav" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app"36"F424DEB5-469F-439F-AF4E-AE5E1CAD65F1-
 
 CCpResource "Talking Toga/nansuka.jpg" "Build/Products/Debug-iphoneos/Talking Toga.app/nansuka.jpg"
-s398034574.733568
-e398034574.747967
+s398366284.989183
+e398366285.070139
 r1
 xCpResource
 xTalking Toga/nansuka.jpg
 xBuild/Products/Debug-iphoneos/Talking Toga.app/nansuka.jpg
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy Build/Products/Debug-iphoneos/Talking Toga.app/nansuka.jpg94debb8e86b9b741^6c7bbf8e86b9b741^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Build/Products/Debug-iphoneos/Talking%20Toga.app/nansuka.jpg000000000080d041^661"CpResource "Talking Toga/nansuka.jpg" "Build/Products/Debug-iphoneos/Talking Toga.app/nansuka.jpg"    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/nansuka.jpg" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app"36"2CAD197D-6570-41AB-9A03-E4DFC2233F09-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy Build/Products/Debug-iphoneos/Talking Toga.app/nansuka.jpg5f5dfd4c96beb741^e4f4114d96beb741^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking%20Toga.app/nansuka.jpg000000000080d041^656"CpResource "Talking Toga/nansuka.jpg" "Build/Products/Debug-iphoneos/Talking Toga.app/nansuka.jpg"    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/nansuka.jpg" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app"36"D379CB38-A95E-4768-A6DB-0F795DBA96FC-
 
 CCpResource "Talking Toga/nansuka.wav" "Build/Products/Debug-iphoneos/Talking Toga.app/nansuka.wav"
-s398034574.733549
-e398034574.737261
+s398366284.935632
+e398366284.987608
 r1
 xCpResource
 xTalking Toga/nansuka.wav
 xBuild/Products/Debug-iphoneos/Talking Toga.app/nansuka.wav
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy Build/Products/Debug-iphoneos/Talking Toga.app/nansuka.wav09dfbb8e86b9b741^23bdbc8e86b9b741^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Build/Products/Debug-iphoneos/Talking%20Toga.app/nansuka.wav000000000080d041^661"CpResource "Talking Toga/nansuka.wav" "Build/Products/Debug-iphoneos/Talking Toga.app/nansuka.wav"    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/nansuka.wav" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app"36"550C7359-A7D1-494B-B718-1086EDF194C9-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy Build/Products/Debug-iphoneos/Talking Toga.app/nansuka.wava794ef4c96beb741^fad5fc4c96beb741^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking%20Toga.app/nansuka.wav000000000080d041^656"CpResource "Talking Toga/nansuka.wav" "Build/Products/Debug-iphoneos/Talking Toga.app/nansuka.wav"    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/nansuka.wav" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app"36"8E0D141B-C146-4EE9-8C89-0F364210CA54-
 
 CCpResource "Talking Toga/yabakunaisuka.jpg" "Build/Products/Debug-iphoneos/Talking Toga.app/yabakunaisuka.jpg"
-s398034574.733611
-e398034574.748043
+s398366284.989321
+e398366285.021537
 r1
 xCpResource
 xTalking Toga/yabakunaisuka.jpg
 xBuild/Products/Debug-iphoneos/Talking Toga.app/yabakunaisuka.jpg
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy Build/Products/Debug-iphoneos/Talking Toga.app/yabakunaisuka.jpg37e0bb8e86b9b741^8880bf8e86b9b741^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Build/Products/Debug-iphoneos/Talking%20Toga.app/yabakunaisuka.jpg000000000080d041^679"CpResource "Talking Toga/yabakunaisuka.jpg" "Build/Products/Debug-iphoneos/Talking Toga.app/yabakunaisuka.jpg"    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/yabakunaisuka.jpg" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app"36"033B289F-5534-4550-B55B-12BDC5826DA5-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy Build/Products/Debug-iphoneos/Talking Toga.app/yabakunaisuka.jpg3e5dfd4c96beb741^aa82054d96beb741^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking%20Toga.app/yabakunaisuka.jpg000000000080d041^674"CpResource "Talking Toga/yabakunaisuka.jpg" "Build/Products/Debug-iphoneos/Talking Toga.app/yabakunaisuka.jpg"    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/yabakunaisuka.jpg" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app"36"5971E72C-0872-4F4A-A918-245E61A70C01-
 
 CCpResource "Talking Toga/yabakunaisuka.wav" "Build/Products/Debug-iphoneos/Talking Toga.app/yabakunaisuka.wav"
-s398034574.691604
-e398034574.732340
+s398366284.886250
+e398366284.987620
 r1
 xCpResource
 xTalking Toga/yabakunaisuka.wav
 xBuild/Products/Debug-iphoneos/Talking Toga.app/yabakunaisuka.wav
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy Build/Products/Debug-iphoneos/Talking Toga.app/yabakunaisuka.wavc423b18e86b9b741^0b7abb8e86b9b741^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Build/Products/Debug-iphoneos/Talking%20Toga.app/yabakunaisuka.wav000000000080d041^679"CpResource "Talking Toga/yabakunaisuka.wav" "Build/Products/Debug-iphoneos/Talking Toga.app/yabakunaisuka.wav"    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/yabakunaisuka.wav" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app"36"828E06B8-4880-4883-A432-5226D56263D6-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy Build/Products/Debug-iphoneos/Talking Toga.app/yabakunaisuka.wavcff4e24c96beb741^d3defc4c96beb741^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking%20Toga.app/yabakunaisuka.wav000000000080d041^674"CpResource "Talking Toga/yabakunaisuka.wav" "Build/Products/Debug-iphoneos/Talking Toga.app/yabakunaisuka.wav"    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/yabakunaisuka.wav" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app"36"501F894D-81D7-4A50-95E1-68AA97932A9E-
 
 CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist "Build/Products/Debug-iphoneos/Talking Toga.app/ResourceRules.plist"
-s398034570.226004
-e398034570.229820
+s398365836.469596
+e398365836.471941
 r1
 xCpResource
 x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
 xBuild/Products/Debug-iphoneos/Talking Toga.app/ResourceRules.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy Build/Products/Debug-iphoneos/Talking Toga.app/ResourceRules.plistb3ec398a86b9b741^28d53a8a86b9b741^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Build/Products/Debug-iphoneos/Talking%20Toga.app/ResourceRules.plist000000000080d041^800"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist "Build/Products/Debug-iphoneos/Talking Toga.app/ResourceRules.plist"    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app"36"A9CF9658-C3FE-4F8B-A374-DDDC82585CD0-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy Build/Products/Debug-iphoneos/Talking Toga.app/ResourceRules.plist3d47788c94beb741^dffe788c94beb741^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking%20Toga.app/ResourceRules.plist000000000080d041^796"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist "Build/Products/Debug-iphoneos/Talking Toga.app/ResourceRules.plist"    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app"36"E18D9DFE-B746-41E3-B05D-B4449D0BA054-
 
-CGenerateDSYMFile "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app.dSYM" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Talking Toga"
-s398200684.406187
-e398200684.430829
+CGenerateDSYMFile "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app.dSYM" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Talking Toga"
+s398373521.017503
+e398373521.043804
 r1
 xGenerateDSYMFile
-x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app.dSYM
-x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Talking Toga
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Generate /Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app.dSYMe509686c0fbcb741^90496e6c0fbcb741^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Build/Products/Debug-iphoneos/Talking%20Toga.app.dSYM/0000000000000000^726"GenerateDSYMFile "Build/Products/Debug-iphoneos/Talking Toga.app.dSYM" "Build/Products/Debug-iphoneos/Talking Toga.app/Talking Toga"    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Talking Toga" -o "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app.dSYM"36"F49882D5-9072-4CA8-B61A-7D5E0EA2632B-
+x/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app.dSYM
+x/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Talking Toga
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Generate /Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app.dSYM978b0491b2beb741^09350b91b2beb741^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking%20Toga.app.dSYM/0000000000000000^721"GenerateDSYMFile "Build/Products/Debug-iphoneos/Talking Toga.app.dSYM" "Build/Products/Debug-iphoneos/Talking Toga.app/Talking Toga"    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Talking Toga" -o "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app.dSYM"36"7BF01262-C48D-4BDF-8BFB-67CF83FA62EC-
 
-CLd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Talking Toga" normal armv7
-s398200684.375021
-e398200684.399459
+CLd "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Talking Toga" normal armv7
+s398373520.986377
+e398373521.010647
 r1
 xLd
-x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Talking Toga
+x/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Talking Toga
 xnormal
 xarmv7
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Link /Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Talking Togae012606c0fbcb741^7c42666c0fbcb741^---0#0#0#--1333"Ld "Build/Products/Debug-iphoneos/Talking Toga.app/Talking Toga" normal armv7    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk "-L/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos" "-F/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos" -filelist "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/Talking Toga.LinkFileList" -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.1 -framework AssetsLibrary -framework MobileCoreServices -framework MediaPlayer -framework AVFoundation -framework UIKit -framework Foundation -framework CoreGraphics -o "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Talking Toga"36"604E2B6E-F56A-4A3A-964D-B1C38302ADF8-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Link /Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Talking Togac993fc90b2beb741^4eb90291b2beb741^---0#0#0#--1312"Ld "Build/Products/Debug-iphoneos/Talking Toga.app/Talking Toga" normal armv7    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos -F/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos -filelist "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Objects-normal/armv7/Talking Toga.LinkFileList" -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.1 -framework QuartzCore -framework CoreGraphics -framework AssetsLibrary -framework CoreMedia -framework Foundation -framework AVFoundation -framework UIKit -o "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Talking Toga"36"A86CDC65-B86D-42EB-A4A6-48C121277B2C-
 
-CProcessInfoPlistFile "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Info.plist" "Talking Toga/Talking Toga-Info.plist"
-s398190298.710039
-e398190298.713835
+CProcessInfoPlistFile "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Info.plist" "Talking Toga/Talking Toga-Info.plist"
+s398365836.469604
+e398365836.473511
 r1
 xProcessInfoPlistFile
-x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Info.plist
+x/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Info.plist
 xTalking Toga/Talking Toga-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Process Talking Toga/Talking Toga-Info.plist1edcb5dae6bbb741^40c0b6dae6bbb741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/Talking%20Toga-Info.plist0000000000000000^896"ProcessInfoPlistFile "Build/Products/Debug-iphoneos/Talking Toga.app/Info.plist" "Talking Toga/Talking Toga-Info.plist"    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility "Talking Toga/Talking Toga-Info.plist" -genpkginfo "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/ResourceRules.plist" -o "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/Info.plist"36"AE7B0BA5-A0F9-485E-9AEF-F5DA64A63CBC-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Process Talking Toga/Talking Toga-Info.plist5e47788c94beb741^3b37798c94beb741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking%20Toga/Talking%20Toga-Info.plist0000000000000000^890"ProcessInfoPlistFile "Build/Products/Debug-iphoneos/Talking Toga.app/Info.plist" "Talking Toga/Talking Toga-Info.plist"    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility "Talking Toga/Talking Toga-Info.plist" -genpkginfo "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/ResourceRules.plist" -o "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/Info.plist"36"E07CCD38-556B-4C9A-9404-60DF15F7823E-
 
-CProcessPCH "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-comhhhousxkubybwyfoowopazwdg/Talking Toga-Prefix.pch.pth" "Talking Toga/Talking Toga-Prefix.pch" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s398034570.237358
-e398034572.908085
+CProcessPCH "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-gqmamleukssqychifobzefobixdd/Talking Toga-Prefix.pch.pth" "Talking Toga/Talking Toga-Prefix.pch" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s398365836.481494
+e398365836.891742
 r1
 xProcessPCH
-x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-comhhhousxkubybwyfoowopazwdg/Talking Toga-Prefix.pch.pth
+x/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-gqmamleukssqychifobzefobixdd/Talking Toga-Prefix.pch.pth
 xTalking Toga/Talking Toga-Prefix.pch
 xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile Talking Toga/Talking Toga-Prefix.pchf8dd3c8a86b9b741^d176e88c86b9b741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Talking%20Toga/Talking%20Toga-Prefix.pch0000000000000000^3729"ProcessPCH "Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-comhhhousxkubybwyfoowopazwdg/Talking Toga-Prefix.pch.pth" "Talking Toga/Talking Toga-Prefix.pch" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-generated-files.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-own-target-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-all-target-headers.hmap" -iquote "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-project-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/DerivedSources/armv7" "-I/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/DerivedSources" "-F/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos" --serialize-diagnostics "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-comhhhousxkubybwyfoowopazwdg/Talking Toga-Prefix.pch.dia" -c "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Talking Toga/Talking Toga-Prefix.pch" -o "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-comhhhousxkubybwyfoowopazwdg/Talking Toga-Prefix.pch.pth" -MMD -MT dependencies -MF "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-comhhhousxkubybwyfoowopazwdg/Talking Toga-Prefix.pch.d"36"C86AB82D-0958-4578-98B7-806165B5B507-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile Talking Toga/Talking Toga-Prefix.pch255d7b8c94beb741^2848e48c94beb741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking%20Toga/Talking%20Toga-Prefix.pch0000000000000000^3710"ProcessPCH "Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-gqmamleukssqychifobzefobixdd/Talking Toga-Prefix.pch.pth" "Talking Toga/Talking Toga-Prefix.pch" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-generated-files.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-own-target-headers.hmap" "-I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-all-target-headers.hmap" -iquote "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga-project-headers.hmap" -I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/DerivedSources/armv7" "-I/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/DerivedSources" -F/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos --serialize-diagnostics "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-gqmamleukssqychifobzefobixdd/Talking Toga-Prefix.pch.dia" -c "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Talking Toga/Talking Toga-Prefix.pch" -o "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-gqmamleukssqychifobzefobixdd/Talking Toga-Prefix.pch.pth" -MMD -MT dependencies -MF "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/PrecompiledHeaders/Talking Toga-Prefix-gqmamleukssqychifobzefobixdd/Talking Toga-Prefix.pch.d"36"9EABC92C-B062-4C6B-A838-438219F101D7-
 
-CProcessPCH "/Users/gentleman/Library/Developer/Xcode/DerivedData/Talking_Toga-ciwsfprrpdmfdacxppgpfwseabxo/Index/PrecompiledHeaders/Talking Toga-Prefix-fwoejxmqwgdppmcjmqcqrzwsqgrt_ast/Talking Toga-Prefix.pch.pth" "Talking Toga/Talking Toga-Prefix.pch" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+CProcessPCH "/Users/gentleman/Library/Developer/Xcode/DerivedData/Talking_Toga-fxpzsrgitlavqdbwcbfghckkqpnu/Index/PrecompiledHeaders/Talking Toga-Prefix-cgnrxmkndhkwvvdjhozjzzgllxqd_ast/Talking Toga-Prefix.pch.pth" "Talking Toga/Talking Toga-Prefix.pch" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
 
-CProcessProductPackaging "/Users/gentleman/Library/MobileDevice/Provisioning Profiles/6DC76783-6BDD-4D0A-8B5F-CD14ED5E6CEA.mobileprovision" "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/embedded.mobileprovision"
-s398034574.927830
-e398034574.930359
+CProcessProductPackaging "/Users/gentleman/Library/MobileDevice/Provisioning Profiles/251F35A4-3616-418A-BE21-4D7FD3F35866.mobileprovision" "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/embedded.mobileprovision"
+s398366291.819259
+e398366291.822516
 r1
 xProcessProductPackaging
-x/Users/gentleman/Library/MobileDevice/Provisioning Profiles/6DC76783-6BDD-4D0A-8B5F-CD14ED5E6CEA.mobileprovision
-x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/embedded.mobileprovision
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection212"ProcessProductPackaging "/Users/gentleman/Library/MobileDevice/Provisioning Profiles/6DC76783-6BDD-4D0A-8B5F-CD14ED5E6CEA.mobileprovision" "Build/Products/Debug-iphoneos/Talking Toga.app/embedded.mobileprovision"209aed8e86b9b741^5a2bee8e86b9b741^---0#0#0#-19%DVTDocumentLocation2@150"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Build/Products/Debug-iphoneos/Talking%20Toga.app/embedded.mobileprovision0000000000000000^756"ProcessProductPackaging "/Users/gentleman/Library/MobileDevice/Provisioning Profiles/6DC76783-6BDD-4D0A-8B5F-CD14ED5E6CEA.mobileprovision" "Build/Products/Debug-iphoneos/Talking Toga.app/embedded.mobileprovision"    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/gentleman/Library/MobileDevice/Provisioning Profiles/6DC76783-6BDD-4D0A-8B5F-CD14ED5E6CEA.mobileprovision" -o "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app/embedded.mobileprovision"36"050880DA-A0D2-4999-AC37-1D736E2180B0-
+x/Users/gentleman/Library/MobileDevice/Provisioning Profiles/251F35A4-3616-418A-BE21-4D7FD3F35866.mobileprovision
+x/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection212"ProcessProductPackaging "/Users/gentleman/Library/MobileDevice/Provisioning Profiles/251F35A4-3616-418A-BE21-4D7FD3F35866.mobileprovision" "Build/Products/Debug-iphoneos/Talking Toga.app/embedded.mobileprovision"b8ccd15396beb741^4790d25396beb741^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking%20Toga.app/embedded.mobileprovision0000000000000000^752"ProcessProductPackaging "/Users/gentleman/Library/MobileDevice/Provisioning Profiles/251F35A4-3616-418A-BE21-4D7FD3F35866.mobileprovision" "Build/Products/Debug-iphoneos/Talking Toga.app/embedded.mobileprovision"    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/gentleman/Library/MobileDevice/Provisioning Profiles/251F35A4-3616-418A-BE21-4D7FD3F35866.mobileprovision" -o "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app/embedded.mobileprovision"36"B3CB44A5-F305-4794-AEC5-7F77E8EA91A8-
 
-CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga.xcent"
-s398190299.449641
-e398190299.452831
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga.xcent"
+s398366291.871919
+e398366291.875048
 r1
 xProcessProductPackaging
 x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
-x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga.xcent
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection238"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga.xcent"273273dbe6bbb741^78ec73dbe6bbb741^---0#0#0#-19%DVTDocumentLocation2@174"file://localhost/Users/gentleman/Developer/Objective-C/myApps/Talking%20Toga/Build/Intermediates/Talking%20Toga.build/Debug-iphoneos/Talking%20Toga.build/Talking%20Toga.xcent0000000000000000^834"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga.xcent"    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist -entitlements -format xml -o "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga.xcent"36"F7E1FCF3-FB50-4E5C-8A4B-EC1947F5F3DE-
+x/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection238"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga.xcent"994adf5396beb741^2ee2e35396beb741^---0#0#0#-19%DVTDocumentLocation2@171"file://localhost/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking%20Toga.build/Debug-iphoneos/Talking%20Toga.build/Talking%20Toga.xcent000000000080d041^830"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist "Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga.xcent"    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist -entitlements -format xml -o "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Intermediates/Talking Toga.build/Debug-iphoneos/Talking Toga.build/Talking Toga.xcent"36"D8393AA1-03BD-4162-A354-96E8D4809C5C-
 
-CTouch "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app"
-s398200684.470193
-e398200684.475393
+CTouch "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app"
+s398373521.103847
+e398373521.109357
 r1
 xTouch
-x/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Touch /Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app986c786c0fbcb741^ae2b826c0fbcb741^---0#0#0#--441"Touch "Build/Products/Debug-iphoneos/Talking Toga.app"    cd "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/gentleman/Developer/Objective-C/myApps/Talking Toga/Build/Products/Debug-iphoneos/Talking Toga.app"36"ED0513B3-5AB5-4024-B75D-5A55B3E8300B-
+x/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Touch /Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app16a31a91b2beb741^f4fe1b91b2beb741^---0#0#0#--437"Touch "Build/Products/Debug-iphoneos/Talking Toga.app"    cd /Users/gentleman/Developer/Objective-C/myApps/talkingtoga    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/gentleman/Developer/Objective-C/myApps/talkingtoga/Build/Products/Debug-iphoneos/Talking Toga.app"36"BF277F88-CBE8-4E74-8ED5-3F621AB3BC23-
 

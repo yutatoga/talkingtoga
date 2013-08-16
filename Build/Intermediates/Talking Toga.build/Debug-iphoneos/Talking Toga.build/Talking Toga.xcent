@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>A56P28MHL2.com.yutatoga</string>
+	<string>A56P28MHL2.com.yutatoga.talkingtoga</string>
 	<key>get-task-allow</key>
 	<true/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>A56P28MHL2.com.yutatoga</string>
+		<string>A56P28MHL2.com.yutatoga.talkingtoga</string>
 	</array>
 </dict>
 </plist>

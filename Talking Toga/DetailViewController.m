@@ -29,8 +29,6 @@
 - (void)configureView
 {
     // Update the user interface for the detail item.
-    NSLog(@"きたよー");
-    NSLog([self.detailItem description]);
     if (self.detailItem) {
         self.detailDescriptionLabel.text = [self.detailItem objectForKey:@"name"];
     }
@@ -42,7 +40,6 @@
 	// Do any additional setup after loading the view, typically from a nib.
     [self configureView];
     
-// FIXME: change 2 to which row was pushed
     self.title = [self.detailItem objectForKey:@"voice"];
     UIImage *image = [UIImage imageNamed:[self.detailItem objectForKey:@"imageFileName"]];
     [self.talkImageView initWithImage:image];
@@ -60,7 +57,7 @@
     //player    
     NSString *path2 = [[NSBundle mainBundle] pathForResource:[[self.detailItem objectForKey:@"audioFileName"] componentsSeparatedByString:@"."][0] ofType:[[self.detailItem objectForKey:@"audioFileName"] componentsSeparatedByString:@"."][1]];
     NSURL *url = [NSURL fileURLWithPath:path2];
-    AVAudioPlayer *audio = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
+//    AVAudioPlayer *audio = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
     player = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
     [player play];
 }

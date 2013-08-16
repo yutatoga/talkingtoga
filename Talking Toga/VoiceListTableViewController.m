@@ -127,6 +127,10 @@
         int touchRowNum = [self.tableView indexPathForSelectedRow].row;
         [[segue destinationViewController] setDetailItem:[[self.detailItem objectForKey:@"contentsDictArray"] objectAtIndex:touchRowNum]];
     }
+    if ([[segue identifier] isEqualToString:@"showRecordView"]) {
+        NSLog(@"recoooooooooooooooding!!!!");
+    }
+    
 }
 
 @end

@@ -7,14 +7,34 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <MediaPlayer/MediaPlayer.h>
-#import <MobileCoreServices/MobileCoreServices.h>
-#import <AssetsLibrary/AssetsLibrary.h>
 
-@interface RecordViewController : UIViewController
--(IBAction)recordAndPlay:(id)sender;
--(BOOL)startCameraControllerFromViewController:(UIViewController*)controller
-                                 usingDelegate:(id )delegate;
--(void)video:(NSString *)videoPath didFinishSavingWithError:(NSError *)error contextInfo:(void*)contextInfo;
+#import <Foundation/Foundation.h>
+#import <CoreMedia/CoreMedia.h>
+#import <AVFoundation/AVFoundation.h>
+
+#import <AssetsLibrary/AssetsLibrary.h>
+#define CAPTURE_FRAMES_PER_SECOND       20
+
+@interface RecordViewController : UIViewController<AVCaptureFileOutputRecordingDelegate>{
+    BOOL WeAreRecording;
+    
+    AVCaptureSession *CaptureSession;
+    AVCaptureMovieFileOutput *MovieFileOutput;
+    AVCaptureDeviceInput *VideoInputDevice;
+//    AVCaptureVideoPreviewLayer *PreviewLayer;
+}
+@property (retain) AVCaptureVideoPreviewLayer *PreviewLayer;
+- (void) CameraSetOutputProperties;
+- (AVCaptureDevice *) CameraWithPosition:(AVCaptureDevicePosition) Position;
+// 録画を始めたり終えたりするイベント
+- (IBAction)StartStopButtonPressed:(id)sender;
+// Back CameraとFront Cameraを切り替えるやつ
+- (IBAction)CameraToggleButtonPressed:(id)sender;
+
+
+//-(IBAction)recordAndPlay:(id)sender;
+//-(BOOL)startCameraControllerFromViewController:(UIViewController*)controller
+//                                 usingDelegate:(id )delegate;
+//-(void)video:(NSString *)videoPath didFinishSavingWithError:(NSError *)error contextInfo:(void*)contextInfo;
 
 @end
