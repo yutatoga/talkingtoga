@@ -8,11 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
-
+#import <MediaPlayer/MediaPlayer.h>
 @interface DetailViewController : UIViewController<AVAudioRecorderDelegate, AVAudioPlayerDelegate>{
     AVAudioRecorder *recorder;
     AVAudioPlayer *player;
+    MPMoviePlayerController *moviePlayer;
     NSMutableArray *audioFileArray;
+    int playPattern;
 }
 
 @property (strong, nonatomic) id detailItem;

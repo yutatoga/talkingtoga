@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+//@protocol NextViewDelegate <NSObject>
+//- (void)nextViewValueDidChanged:(int32_t)value;
+//@end
 
 @interface VoiceListTableViewController : UITableViewController
 @property (strong, nonatomic) id detailItem;
+//@property(weak, nonatomic) id<NextViewDelegate> delegate;
+
 @end

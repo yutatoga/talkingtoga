@@ -7,7 +7,7 @@
 //
 
 #import "VoiceListTableViewController.h"
-
+#import "RecordViewController.h"
 #import "DetailViewController.h"
 
 @interface VoiceListTableViewController ()
@@ -53,7 +53,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    // Return the number of rows in the section.
+    // Return the number of rows in the section.    
     return [[self.detailItem objectForKey:@"contentsDictArray"] count];
 }
 
@@ -63,7 +63,9 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     // Configure the cell...
-    cell.textLabel.text = [[[self.detailItem objectForKey:@"contentsDictArray"] objectAtIndex:indexPath.row]  objectForKey:@"voice"];
+    //逆順
+    //cell.textLabel.text = [[[self.detailItem objectForKey:@"contentsDictArray"] objectAtIndex:[[self.detailItem objectForKey:@"contentsDictArray"] count]-indexPath.row-1]  objectForKey:@"voice"];
+    cell.textLabel.text = [[[self.detailItem objectForKey:@"contentsDictArray"] objectAtIndex:indexPath.row] objectForKey:@"voice"];
     return cell;
 }
 
@@ -129,8 +131,28 @@
     }
     if ([[segue identifier] isEqualToString:@"showRecordView"]) {
         NSLog(@"recoooooooooooooooding!!!!");
+        RecordViewController *rvc = [segue destinationViewController];
+        rvc.delegate = (id<NextViewDelegate>)self;
     }
     
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+    NSLog(@"viewWillAppear!!!!!!!!!!!!!!!!!!!!!!");
+    [self.tableView reloadData];
+}
+
+- (void)nextViewValueDidChanged:(NSString *)voiceName savePath:(NSString *)savePath{
+    NSLog(@"つながってます");
+    //make dict
+    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
+    [dict setObject:voiceName forKey:@"voice"];
+    [dict setObject:[self.detailItem objectForKey:@"name"] forKey:@"name"];
+    [dict setObject:savePath forKey:@"imageFileName"];
+    [dict setObject:@"nansuka.wav" forKey:@"audioFileName"];
+    [dict setObject:@"42" forKey:@"IDNum"];
+    //add to array
+    [[self.detailItem objectForKey:@"contentsDictArray"] addObject:dict];
 }
 
 @end

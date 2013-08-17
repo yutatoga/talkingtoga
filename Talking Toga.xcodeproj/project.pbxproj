@@ -30,6 +30,7 @@
 		8D8EB5CA17BE8D2F00AFCFA4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D8EB5C917BE8D2F00AFCFA4 /* CoreMedia.framework */; };
 		8D8EB5FD17BE964400AFCFA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2118B417B6AA6000FC98AB /* CoreGraphics.framework */; };
 		8D8EB5FF17BEB1BB00AFCFA4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D8EB5FE17BEB1BB00AFCFA4 /* QuartzCore.framework */; };
+		8DA92C2017C00D4800E85593 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA92C1F17C00D4800E85593 /* MediaPlayer.framework */; };
 		8DFC42A717B806E400382E8F /* hai.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8DFC42A317B806E400382E8F /* hai.wav */; };
 		8DFC42A817B806E400382E8F /* kora.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8DFC42A417B806E400382E8F /* kora.wav */; };
 		8DFC42AA17B806E400382E8F /* yabakunaisuka.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8DFC42A617B806E400382E8F /* yabakunaisuka.wav */; };
@@ -74,6 +75,7 @@
 		8D8EB5C917BE8D2F00AFCFA4 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		8D8EB5FB17BE918300AFCFA4 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		8D8EB5FE17BEB1BB00AFCFA4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8DA92C1F17C00D4800E85593 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		8DFC42A317B806E400382E8F /* hai.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hai.wav; sourceTree = "<group>"; };
 		8DFC42A417B806E400382E8F /* kora.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kora.wav; sourceTree = "<group>"; };
 		8DFC42A617B806E400382E8F /* yabakunaisuka.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = yabakunaisuka.wav; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DA92C2017C00D4800E85593 /* MediaPlayer.framework in Frameworks */,
 				8D8EB5FF17BEB1BB00AFCFA4 /* QuartzCore.framework in Frameworks */,
 				8D8EB5FD17BE964400AFCFA4 /* CoreGraphics.framework in Frameworks */,
 				8D2118E817B7605C00FC98AB /* AssetsLibrary.framework in Frameworks */,
@@ -127,6 +130,7 @@
 		8D2118AF17B6AA6000FC98AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8DA92C1F17C00D4800E85593 /* MediaPlayer.framework */,
 				8D8EB5FE17BEB1BB00AFCFA4 /* QuartzCore.framework */,
 				8D8EB5FB17BE918300AFCFA4 /* CoreVideo.framework */,
 				8D2118B217B6AA6000FC98AB /* Foundation.framework */,

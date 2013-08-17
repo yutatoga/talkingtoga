@@ -14,6 +14,11 @@
 
 #import <AssetsLibrary/AssetsLibrary.h>
 #define CAPTURE_FRAMES_PER_SECOND       20
+@protocol NextViewDelegate <NSObject>
+
+- (void)nextViewValueDidChanged:(NSString *)voiceName savePath:(NSString *)savePath;
+
+@end
 
 @interface RecordViewController : UIViewController<AVCaptureFileOutputRecordingDelegate>{
     BOOL WeAreRecording;
@@ -21,7 +26,9 @@
     AVCaptureSession *CaptureSession;
     AVCaptureMovieFileOutput *MovieFileOutput;
     AVCaptureDeviceInput *VideoInputDevice;
-//    AVCaptureVideoPreviewLayer *PreviewLayer;
+    UITextField *textField;
+    NSString *savePath;
+    IBOutlet UIButton *recordButton;
 }
 @property (retain) AVCaptureVideoPreviewLayer *PreviewLayer;
 - (void) CameraSetOutputProperties;
@@ -37,4 +44,5 @@
 //                                 usingDelegate:(id )delegate;
 //-(void)video:(NSString *)videoPath didFinishSavingWithError:(NSError *)error contextInfo:(void*)contextInfo;
 
+@property(weak, nonatomic) id<NextViewDelegate> delegate;
 @end

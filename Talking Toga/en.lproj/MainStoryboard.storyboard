@@ -119,8 +119,8 @@
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oiw-XT-350">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="157" id="07l-pE-WXZ"/>
-                                    <constraint firstAttribute="height" constant="170" id="eeo-FT-5WU"/>
+                                    <constraint firstAttribute="width" constant="150" id="s8j-5B-cQN"/>
+                                    <constraint firstAttribute="height" constant="200" id="xum-fV-6lq"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uXc-w5-xBd">
@@ -143,13 +143,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="oiw-XT-350" firstAttribute="centerX" secondItem="27" secondAttribute="centerX" type="default" id="0pf-g5-gbl"/>
                             <constraint firstItem="uXc-w5-xBd" firstAttribute="centerX" secondItem="27" secondAttribute="centerX" type="default" id="DW8-gr-bsV"/>
+                            <constraint firstItem="oiw-XT-350" firstAttribute="top" secondItem="22" secondAttribute="top" constant="20" symbolic="YES" type="default" id="GiG-ak-z6H"/>
                             <constraint firstItem="27" firstAttribute="leading" secondItem="22" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="R0m-z7-TWk"/>
-                            <constraint firstItem="oiw-XT-350" firstAttribute="top" secondItem="22" secondAttribute="top" constant="26" id="TQ7-hz-9tg"/>
-                            <constraint firstItem="oiw-XT-350" firstAttribute="centerX" secondItem="27" secondAttribute="centerX" type="default" id="efO-g8-fRC"/>
+                            <constraint firstAttribute="bottom" secondItem="uXc-w5-xBd" secondAttribute="bottom" constant="70" id="Wfn-Ti-bMp"/>
                             <constraint firstAttribute="trailing" secondItem="27" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="pRe-qY-58T"/>
-                            <constraint firstItem="27" firstAttribute="top" secondItem="22" secondAttribute="top" constant="206" id="qOg-Ot-GJb"/>
-                            <constraint firstAttribute="bottom" secondItem="uXc-w5-xBd" secondAttribute="bottom" constant="82" id="uQ0-bv-1Q5"/>
+                            <constraint firstItem="27" firstAttribute="top" secondItem="oiw-XT-350" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="zV5-1B-ozJ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Detail" id="26"/>
@@ -172,8 +172,8 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="goH-tR-ddx">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="85" id="rug-g6-nP2"/>
-                                    <constraint firstAttribute="height" constant="67" id="vZf-Ka-SCD"/>
+                                    <constraint firstAttribute="width" constant="111" id="UPk-Oo-fzl"/>
+                                    <constraint firstAttribute="height" constant="64" id="swI-E1-Aqs"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Rec">
@@ -208,13 +208,16 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="h97-59-jS1" firstAttribute="top" secondItem="Xhm-iX-cpR" secondAttribute="top" constant="6" id="GkS-mZ-tuh"/>
-                            <constraint firstAttribute="bottom" secondItem="goH-tR-ddx" secondAttribute="bottom" constant="63" id="s24-Z4-E7d"/>
                             <constraint firstItem="goH-tR-ddx" firstAttribute="centerX" secondItem="Xhm-iX-cpR" secondAttribute="centerX" type="default" id="swA-sG-RU1"/>
+                            <constraint firstAttribute="bottom" secondItem="goH-tR-ddx" secondAttribute="bottom" constant="70" id="tBb-RN-lkX"/>
                             <constraint firstAttribute="trailing" secondItem="h97-59-jS1" secondAttribute="trailing" constant="17" id="ynd-mW-h1Z"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="njY-yr-SaP"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="recordButton" destination="goH-tR-ddx" id="R9A-Io-JT2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="job-vM-XZI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -241,6 +244,7 @@
             <relationships>
                 <relationship kind="action" name="CameraToggleButtonPressed:"/>
                 <relationship kind="action" name="StartStopButtonPressed:"/>
+                <relationship kind="outlet" name="recordButton" candidateClass="UIButton"/>
             </relationships>
         </class>
         <class className="VoiceListTableViewController" superclassName="UITableViewController">

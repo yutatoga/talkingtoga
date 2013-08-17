@@ -102,7 +102,7 @@
     
     // StoryBoard使えばこんなの要らない？
 //    CGRect layerRect = [[[self view] layer] bounds];
-    CGRect layerRect = CGRectMake(50, 50, 220, 220);
+    CGRect layerRect = CGRectMake(85, 20, 150, 200);
     [PreviewLayer setBounds:layerRect];
     [PreviewLayer setPosition:CGPointMake(CGRectGetMidX(layerRect),
                                           CGRectGetMidY(layerRect))];
@@ -236,11 +236,9 @@
 
 
 - (IBAction)StartStopButtonPressed:(id)sender{
-    if (!WeAreRecording)
-    {
-        
+    if (!WeAreRecording){
+        [recordButton setTitle:@"Stop" forState:UIControlStateNormal];
         WeAreRecording = YES;
-        
         //保存する先のパスを作成
         NSString *outputPath = [[NSString alloc] initWithFormat:@"%@%@", NSTemporaryDirectory(), @"output.mov"];
         NSURL *outputURL = [[NSURL alloc] initFileURLWithPath:outputPath];
@@ -256,10 +254,9 @@
         //録画開始
         [MovieFileOutput startRecordingToOutputFileURL:outputURL recordingDelegate:self];
     }
-    else
-    {
+    else{
+        NSLog(@"stopbutton pushed!");
         WeAreRecording = NO;
-        
         [MovieFileOutput stopRecording];
     }
 }
@@ -269,6 +266,7 @@ didFinishRecordingToOutputFileAtURL:(NSURL *)outputFileURL
       fromConnections:(NSArray *)connections
                 error:(NSError *)error
 {
+    NSLog(@"recording finished!");
     
     BOOL RecordedSuccessfully = YES;
     if ([error code] != noErr)
@@ -280,22 +278,75 @@ didFinishRecordingToOutputFileAtURL:(NSURL *)outputFileURL
             RecordedSuccessfully = [value boolValue];
         }
     }
-    if (RecordedSuccessfully)
-    {
-        //書き込んだのは/tmp以下なのでカメラーロールの下に書き出す
-        ALAssetsLibrary *library = [[ALAssetsLibrary alloc] init];
-        if ([library videoAtPathIsCompatibleWithSavedPhotosAlbum:outputFileURL])
-        {
-            [library writeVideoAtPathToSavedPhotosAlbum:outputFileURL
-                                        completionBlock:^(NSURL *assetURL, NSError *error)
-             {
-                 if (error)
-                 {
-                     
-                 }
-             }];
-        }
+    if (RecordedSuccessfully){
+        //previewを停止
+        [CaptureSession stopRunning];
+        //saveするかどうか聞く
+        [self saveOrCancel:nil];
         
+        
+        
+        
+    }
+}
+
+- (void)saveOrCancel:(id)sender
+{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Title" message:@"Please enter the title" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Done", nil];
+    alert.alertViewStyle = UIAlertViewStylePlainTextInput;
+    textField = [alert textFieldAtIndex:0];
+    textField.keyboardType = UIKeyboardTypeAlphabet;
+    textField.keyboardAppearance = UIKeyboardAppearanceAlert;
+    textField.autocorrectionType = UITextAutocorrectionTypeNo;
+    [alert show];
+}
+
+-(void)alertView:(UIAlertView*)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+    switch (buttonIndex) {
+        case 0:
+            //left button(cancel) was tapeed
+            [CaptureSession startRunning];
+            [recordButton setTitle:@"Rec" forState:UIControlStateNormal];
+            break;
+        case 1:
+            //right button(done) was tapped
+            //add cell which is named that user entered in alert view
+            //書き込んだのは/tmp以下なのでカメラーロールの下に書き出す
+        {
+            ALAssetsLibrary *library = [[ALAssetsLibrary alloc] init];
+            NSString *outputPath = [[NSString alloc] initWithFormat:@"%@%@", NSTemporaryDirectory(), @"output.mov"];
+            NSURL *outputURL = [[NSURL alloc] initFileURLWithPath:outputPath];
+            if ([library videoAtPathIsCompatibleWithSavedPhotosAlbum:outputURL]){
+                [library writeVideoAtPathToSavedPhotosAlbum:outputURL
+                                            completionBlock:^(NSURL *assetURL, NSError *error)
+                 
+                 {
+                     if (error)
+                     {
+                         
+                     }
+                 }];
+            }
+            //ローカルにも保存する
+            //保存する動画の情報を保存しておく。
+            NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+            //ファイルをコピーして移動
+            NSFileManager *fileManager = [[NSFileManager alloc] init];
+            savePath = [[[NSHomeDirectory() stringByAppendingString:@"/Documents/"] stringByAppendingString:textField.text] stringByAppendingString:@".mov"];
+            [fileManager copyItemAtPath:outputPath toPath:savePath error:NULL];
+            [self dismissModalViewControllerAnimated:YES];
+            break;
+        }
+    }
+}
+
+- (void)viewWillDisappear:(BOOL)animated{
+    NSLog(@"きえる");
+    [super viewWillDisappear:animated];
+    if ( [self.delegate respondsToSelector:@selector(nextViewValueDidChanged:savePath:)] ) {
+        //入力してもらったファイル名
+        NSLog(@"うごいてる");
+        [self.delegate nextViewValueDidChanged:textField.text savePath:savePath];
     }
 }
 
