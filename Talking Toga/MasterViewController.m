@@ -26,40 +26,48 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
+    NSArray *arrayOld = [ud arrayForKey:@"voiceDictArrayDefauts"];
+    NSString *bar = [arrayOld[0] objectForKey:@"name"];
+    NSLog(@"%@", bar);
+
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
 
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
     
-    
-    
-    NSMutableArray *voiceArray = [NSMutableArray array];
-    
-    NSMutableArray *voiceMutableArray = [NSArray arrayWithObjects:
-                                         @"はーい",
-                                         @"こら",
-                                         @"やばくないすか",
-                                         nil];
-    NSMutableArray *imageFileNameArray = [NSArray arrayWithObjects:
-                                         @"hai.jpg",
-                                         @"kora.jpg",
-                                         @"yabakunaisuka.jpg",
-                                         nil];
-    
-    NSMutableArray *audioFileNameArray = [NSMutableArray array];
-    [audioFileNameArray addObject:@"hai.wav"];
-    [audioFileNameArray addObject:@"kora.wav"];
-    [audioFileNameArray addObject:@"yabakunaisuka.wav"];
-    
-    NSString *instantName = @"James Toga";    
-    
-    for (int i = 0; i<voiceMutableArray.count; i++) {
-        [voiceArray addObject:[self createContentsDict:voiceMutableArray[i] name:instantName imageFileName:imageFileNameArray[i] audioFileName:audioFileNameArray[i] IDNum:[NSNumber numberWithInt:i]]];
-    }
+    //add James Toga to _objects
+    //read user defaults and add objects
+    //-1 means not include james toga
     _objects = [NSMutableArray array];
-    
-    NSMutableDictionary *dict = [self createOutlineDict:@"James Toga" contentsDictArray:voiceArray belongs:@"Future Lab" address:@"Tokyo" IDNum:[NSNumber numberWithInt:0]];
-    [_objects addObject:dict];
+    if (arrayOld.count > 0) {
+        for (int i = 0; i<arrayOld.count; i++) {
+            [_objects addObject:arrayOld[i]];
+        }        
+    }else{
+        //James Toga
+        NSMutableArray *voiceArray = [NSMutableArray array];
+        NSMutableArray *voiceMutableArray = [NSArray arrayWithObjects:
+                                             @"はーい",
+                                             @"こら",
+                                             @"やばくないすか",
+                                             nil];
+        NSMutableArray *imageFileNameArray = [NSArray arrayWithObjects:
+                                              @"hai.jpg",
+                                              @"kora.jpg",
+                                              @"yabakunaisuka.jpg",
+                                              nil];
+        NSMutableArray *audioFileNameArray = [NSMutableArray array];
+        [audioFileNameArray addObject:@"hai.wav"];
+        [audioFileNameArray addObject:@"kora.wav"];
+        [audioFileNameArray addObject:@"yabakunaisuka.wav"];
+        NSString *instantName = @"James Toga";
+        for (int i = 0; i<voiceMutableArray.count; i++) {
+            [voiceArray addObject:[self createContentsDict:voiceMutableArray[i] name:instantName imageFileName:imageFileNameArray[i] audioFileName:audioFileNameArray[i] IDNum:[NSNumber numberWithInt:i]]];
+        }
+        NSMutableDictionary *dict = [self createOutlineDict:@"James Toga" contentsDictArray:voiceArray belongs:@"Future Lab" address:@"Tokyo" IDNum:[NSNumber numberWithInt:0]];
+        [_objects addObject:dict];
+    }
 }
 
 - (NSMutableDictionary *)createContentsDict:(NSString *)voice
@@ -133,6 +141,11 @@
             [_objects insertObject:newDict atIndex:0];
             NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
             [self.tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+            
+            NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
+            [ud setObject:_objects forKey:@"voiceDictArrayDefauts"];
+            [ud synchronize];
+            
             break;
     }
 }
@@ -196,23 +209,18 @@
         NSDictionary *selectedDict = _objects[indexPath.row];
         [[segue destinationViewController] setDetailItem:selectedDict];
         
-//        VoiceListTableViewController *vltv = [segue destinationViewController];
-//        vltv.delegate = (id<NextViewDelegate>)self;
+        VoiceListTableViewController *vltv = [segue destinationViewController];
+        vltv.delegate = (id<VoiceListTableViewDelegate>)self;
     }
 }
 
-//- (void)nextViewValueDidChanged:(int32_t)value{
-//    NSLog(@"遠い所からどうも");
-//    NSLog(@"%d", value);
-////    //make dict
-//    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
-//    [dict setObject:@"なんすか" forKey:@"voice"];
-//    [dict setObject:@"James Toga" forKey:@"name"];
-//    [dict setObject:@"nansuka.jpg" forKey:@"imageFileName"];
-//    [dict setObject:@"nansuka.wav" forKey:@"audioFileName"];
-//    [dict setObject:@"42" forKey:@"IDNum"];
-//    //add to array
-//    [[_objects[0] objectForKey:@"contentsDictArray"] addObject:dict];
-//}
+- (void)updateUserDefaults:(int32_t)value{
+    NSLog(@"遠い所からどうも");
+    //update user defaults
+    NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
+    [ud setObject:_objects forKey:@"voiceDictArrayDefauts"];
+    [ud synchronize];
+}
+
 
 @end

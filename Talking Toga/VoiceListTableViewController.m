@@ -153,6 +153,13 @@
     [dict setObject:@"42" forKey:@"IDNum"];
     //add to array
     [[self.detailItem objectForKey:@"contentsDictArray"] addObject:dict];
+    //default にも摘要
+    NSLog(@"ここから");
+    if ( [self.delegate respondsToSelector:@selector(updateUserDefaults:)] ) {
+        //入力してもらったファイル名
+        NSLog(@"うごいてる");
+        [self.delegate updateUserDefaults:32];
+    }
 }
 
 @end
